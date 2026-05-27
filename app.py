@@ -667,20 +667,23 @@ def normalise_employees(df_raw):
     if "Performance Trajectory" not in df.columns:
         df["Performance Trajectory"] = 0.0
 
-    # Promotion velocity
+    # Promotion velocity — derive from HRIS columns directly; never circular
+    total_promos = pd.to_numeric(df.get("Total Promotions (Career)", pd.Series(0, index=df.index)), errors='coerce').fillna(0)
+    tenure_yrs   = pd.to_numeric(df.get("Tenure with Organisation (Years)", pd.Series(5, index=df.index)), errors='coerce').fillna(5).replace(0, 1)
+
     if "Promotions per Year (Career)" not in df.columns:
-        df["Promotions per Year (Career)"] = (
-            df["Total Promotions (Career)"] /
-            df["Tenure with Organisation (Years)"].replace(0, 1)
-        ).round(4)
+        df["Promotions per Year (Career)"] = (total_promos / tenure_yrs).round(4)
+
+    # Last-5-year promos: start with 0 — will be patched in Career Path tab
+    # once promotion_history.csv is loaded and dates are known.
+    # Here we set a reasonable proxy: proportional to career velocity × 5
+    if "Promotions in Last 5 Years" not in df.columns:
+        career_ppy = df["Promotions per Year (Career)"]
+        df["Promotions in Last 5 Years"] = (career_ppy * 5).round(0).clip(upper=total_promos).astype(int)
     if "Promotions per Year (Last 5 Years)" not in df.columns:
         df["Promotions per Year (Last 5 Years)"] = (
-            df.get("Promotions in Last 5 Years", pd.Series(0, index=df.index)) / 5
+            df["Promotions in Last 5 Years"] / 5
         ).round(4)
-    if "Promotions in Last 5 Years" not in df.columns:
-        df["Promotions in Last 5 Years"] = (
-            (df["Promotions per Year (Last 5 Years)"] * 5).round(0).astype(int)
-        )
 
     # Leadership breadth columns
     if "Cross-Functional Experience" not in df.columns:
@@ -1753,10 +1756,31 @@ with tab7:
         if "_To_Grade_Raw" in df_promo.columns:
             df_promo["Promoted To Grade"] = df_promo["_To_Grade_Raw"].map(GRADE_NUM_MAP).fillna(5).astype(int)
             df_promo.drop(columns=["_To_Grade_Raw"], inplace=True)
-        # Extract year from Promotion_Date
+        # ── Compute Promotions in Last 5 Years from actual promotion dates ──────
         if "_Promo_Date_Raw" in df_promo.columns:
-            df_promo["Promotion Year"] = pd.to_datetime(df_promo["_Promo_Date_Raw"], errors="coerce").dt.year.fillna(2020).astype(int)
+            df_promo["Promotion Year"] = pd.to_datetime(
+                df_promo["_Promo_Date_Raw"], errors="coerce"
+            ).dt.year.fillna(2020).astype(int)
             df_promo.drop(columns=["_Promo_Date_Raw"], inplace=True)
+
+        cutoff_year = pd.Timestamp.now().year - 5
+        p5_map = (
+            df_promo[df_promo["Promotion Year"] >= cutoff_year]
+            .groupby("EE Number")["Promotion Year"]
+            .count()
+            .rename("_p5")
+        )
+        # Patch df_emp so the KPI strip and LPS cluster C3 both pick it up
+        df_emp["Promotions in Last 5 Years"] = (
+            df_emp["EE Number"].map(p5_map).fillna(0).astype(int)
+        )
+        df_emp["Promotions per Year (Last 5 Years)"] = (
+            (df_emp["Promotions in Last 5 Years"] / 5).round(4)
+        )
+        # Also refresh e_cp so the KPI strip below reads the patched value
+        emp_cp_row = df_emp[df_emp["Employee Full Name"] == sel_cp]
+        if len(emp_cp_row) > 0:
+            e_cp = emp_cp_row.iloc[0]
         # Match employee name from df_emp using EE Number if name col exists
         if "Employee Full Name" not in df_promo.columns and "EE Number" in df_promo.columns:
             ee_name_map = df_emp.set_index("EE Number")["Employee Full Name"].to_dict()
