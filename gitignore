@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Streamlit cache
+.streamlit/cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Large data files — commit only sample/reference data
+# Uncomment if you don't want CSVs tracked:
+# *.csv

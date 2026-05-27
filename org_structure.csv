@@ -1,0 +1,17 @@
+Role_ID,Role_Title,Role_Type,Grade_Band,Reports_To,Department,Geography,Headcount,Succession_Pool_Min,Succession_Pool_Max,Is_Critical_Role
+CEO,Chief Executive Officer,Critical,E2,Board,Strategy & Corporate Development,Global,1,5,10,Yes
+COO,Chief Operating Officer,Critical,E2,Chief Executive Officer,Operations,Global,1,5,10,Yes
+CFO,Chief Financial Officer,Critical,E2,Chief Executive Officer,Finance & Accounting,Global,1,5,10,Yes
+CHRO,Chief Human Resources Officer,Critical,E2,Chief Executive Officer,Human Resources,Global,1,5,10,Yes
+CIO_CTO,Chief Information / Technology Officer,Critical,E2,Chief Executive Officer,Technology & Engineering,Global,1,5,10,Yes
+CSO_Sales,Chief Sales Officer,Critical,E2,Chief Executive Officer,Sales & Business Development,Global,1,5,10,Yes
+CMO,Chief Marketing Officer,Critical,E2,Chief Executive Officer,Marketing & Brand,Global,1,5,10,Yes
+CSO_Strat,Chief Strategy Officer,Critical,E2,Chief Executive Officer,Strategy & Corporate Development,Global,1,5,10,Yes
+CISO,Chief Information Security Officer,Critical,E2,Chief Information / Technology Officer,Information Security,Global,1,5,10,Yes
+BU_Head,Business Unit Head,Critical,E1/E2,Chief Operating Officer,Operations,India/Regional,3,5,10,Yes
+Geo_Head,Geography Head,Critical,E1,Chief Sales Officer,Sales & Business Development,Regional,5,5,10,Yes
+Vert_Head,Vertical Head,Critical,E1,Chief Sales Officer,Sales & Business Development,India Only,5,5,10,Yes
+Sr_Director,Senior Director,Management,M5,Business Unit Head,Cross-functional,India Only,10,0,0,No
+Director,Director,Management,M4,Senior Director,Cross-functional,India Only,25,0,0,No
+Sr_Manager,Senior Manager,Management,M3,Director,Cross-functional,India Only,40,0,0,No
+Manager,Manager,Management,M2,Senior Manager,Cross-functional,India Only,60,0,0,No

@@ -1,0 +1,94 @@
+Target_Critical_Role,Successor_Rank,Employee_ID,Employee_Name,Grade,Department,Performance_Rating,Readiness_Level,Pool_Score,Pool_Size
+CEO,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,116.34,8
+CEO,2,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,111.04,8
+CEO,3,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,106.65,8
+CEO,4,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,103.57,8
+CEO,5,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,102.45,8
+CEO,6,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,100.1,8
+CEO,7,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,98.14,8
+CEO,8,LTM01101,Santosh Subramanian,E1,Finance & Accounting,4.0,Ready in 1-2 Years,95.81,8
+COO,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,111.43,9
+COO,2,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,105.37,9
+COO,3,LTM01101,Santosh Subramanian,E1,Finance & Accounting,4.0,Ready in 1-2 Years,103.39,9
+COO,4,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,103.31,9
+COO,5,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,100.51,9
+COO,6,LTM01100,Vivek Menon,E1,Technology & Engineering,3.7,Ready in 1-2 Years,98.75,9
+COO,7,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,98.38,9
+COO,8,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,98.34,9
+COO,9,LTM01045,Naresh Kapoor,M5,Marketing & Brand,4.1,Ready in 1-2 Years,96.55,9
+CFO,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,112.85,7
+CFO,2,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,103.48,7
+CFO,3,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,103.32,7
+CFO,4,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,101.71,7
+CFO,5,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,100.52,7
+CFO,6,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,98.21,7
+CFO,7,LTM01086,Saroja Yadav,E1,Information Security,3.8,Ready in 1-2 Years,97.84,7
+CHRO,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,108.15,9
+CHRO,2,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,103.92,9
+CHRO,3,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,102.6,9
+CHRO,4,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,101.13,9
+CHRO,5,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,100.31,9
+CHRO,6,LTM01093,Lakshminarayana Bajaj,E1,Risk & Audit,3.9,Ready in 1-2 Years,98.76,9
+CHRO,7,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,98.47,9
+CHRO,8,LTM01067,Saraswathi Roy,E1,Legal & Compliance,3.7,Ready in 1-2 Years,97.53,9
+CHRO,9,LTM01092,Sheela Shetty,E1,Operations,3.6,Ready in 1-2 Years,95.19,9
+CIO/CTO,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,105.58,8
+CIO/CTO,2,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,105.02,8
+CIO/CTO,3,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,103.88,8
+CIO/CTO,4,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,103.12,8
+CIO/CTO,5,LTM01011,Bindu Bose,M5,Product Management,3.9,Ready in 1-2 Years,100.67,8
+CIO/CTO,6,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,99.88,8
+CIO/CTO,7,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,98.47,8
+CIO/CTO,8,LTM01045,Naresh Kapoor,M5,Marketing & Brand,4.1,Ready in 1-2 Years,95.8,8
+CSO (Sales),1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,111.55,9
+CSO (Sales),2,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,107.56,9
+CSO (Sales),3,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,104.73,9
+CSO (Sales),4,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,104.06,9
+CSO (Sales),5,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,103.4,9
+CSO (Sales),6,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,101.96,9
+CSO (Sales),7,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,99.95,9
+CSO (Sales),8,LTM01098,Manish Mishra,M5,Human Resources,3.8,Ready in 1-2 Years,99.07,9
+CSO (Sales),9,LTM01114,Shyam Kamath,E1,Product Management,3.7,Ready in 1-2 Years,98.67,9
+CISO,1,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,109.73,8
+CISO,2,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,108.9,8
+CISO,3,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,107.75,8
+CISO,4,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,104.47,8
+CISO,5,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,100.4,8
+CISO,6,LTM01101,Santosh Subramanian,E1,Finance & Accounting,4.0,Ready in 1-2 Years,100.26,8
+CISO,7,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,98.06,8
+CISO,8,LTM01093,Lakshminarayana Bajaj,E1,Risk & Audit,3.9,Ready in 1-2 Years,97.95,8
+Chief Strategy Officer,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,116.32,9
+Chief Strategy Officer,2,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,103.9,9
+Chief Strategy Officer,3,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,103.88,9
+Chief Strategy Officer,4,LTM01045,Naresh Kapoor,M5,Marketing & Brand,4.1,Ready in 1-2 Years,103.73,9
+Chief Strategy Officer,5,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,103.02,9
+Chief Strategy Officer,6,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,100.43,9
+Chief Strategy Officer,7,LTM01100,Vivek Menon,E1,Technology & Engineering,3.7,Ready in 1-2 Years,98.03,9
+Chief Strategy Officer,8,LTM01093,Lakshminarayana Bajaj,E1,Risk & Audit,3.9,Ready in 1-2 Years,96.62,9
+Chief Strategy Officer,9,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,96.06,9
+Business Unit Head,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,114.95,6
+Business Unit Head,2,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,105.08,6
+Business Unit Head,3,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,103.28,6
+Business Unit Head,4,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,101.95,6
+Business Unit Head,5,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,99.96,6
+Business Unit Head,6,LTM01045,Naresh Kapoor,M5,Marketing & Brand,4.1,Ready in 1-2 Years,97.96,6
+Geography Head,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,115.58,7
+Geography Head,2,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,110.44,7
+Geography Head,3,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,110.04,7
+Geography Head,4,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,105.33,7
+Geography Head,5,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,101.31,7
+Geography Head,6,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,98.34,7
+Geography Head,7,LTM01045,Naresh Kapoor,M5,Marketing & Brand,4.1,Ready in 1-2 Years,96.63,7
+Vertical Head,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,111.47,5
+Vertical Head,2,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,108.59,5
+Vertical Head,3,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,105.03,5
+Vertical Head,4,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,100.92,5
+Vertical Head,5,LTM01101,Santosh Subramanian,E1,Finance & Accounting,4.0,Ready in 1-2 Years,100.41,5
+Chief Marketing Officer,1,LTM01047,Bharat Roy,E2,Supply Chain,4.7,Ready Now,115.2,8
+Chief Marketing Officer,2,LTM01107,Kamala Pandey,E1,Risk & Audit,4.4,Ready in 1-2 Years,107.91,8
+Chief Marketing Officer,3,LTM01002,Krishnamurthy Pai,E2,Strategy & Corporate Development,4.0,Ready in 1-2 Years,104.65,8
+Chief Marketing Officer,4,LTM01040,Sudhir Chatterjee,E1,Information Security,4.3,Ready in 1-2 Years,103.93,8
+Chief Marketing Officer,5,LTM01036,Siddharth Sethi,E2,Risk & Audit,4.0,Ready Now,99.25,8
+Chief Marketing Officer,6,LTM01099,Subramaniam Sethi,M5,Finance & Accounting,4.6,Ready in 1-2 Years,98.74,8
+Chief Marketing Officer,7,LTM01032,Karan Kumar,M5,Human Resources,4.3,Ready in 1-2 Years,96.19,8
+Chief Marketing Officer,8,LTM01101,Santosh Subramanian,E1,Finance & Accounting,4.0,Ready in 1-2 Years,94.68,8
