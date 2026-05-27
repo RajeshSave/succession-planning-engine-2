@@ -1781,7 +1781,11 @@ with tab7:
                 </div>""", unsafe_allow_html=True)
 
         with cp2:
-            emp_promos=df_promo[df_promo["Employee Full Name"]==sel_cp].sort_values("Promotion Year")
+            # Match by name first, fall back to EE Number
+            emp_promos = df_promo[df_promo["Employee Full Name"] == sel_cp].sort_values("Promotion Year")
+            if len(emp_promos) == 0 and len(emp_cp_row) > 0:
+                ee_id = emp_cp_row.iloc[0]["EE Number"]
+                emp_promos = df_promo[df_promo["EE Number"] == ee_id].sort_values("Promotion Year")
             if len(emp_promos)==0:
                 st.info(f"No promotion history found for {sel_cp}.")
             else:

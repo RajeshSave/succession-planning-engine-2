@@ -1,293 +1,471 @@
 Employee_ID,Employee_Name,Promotion_Number,From_Grade,To_Grade,Promotion_Date,Years_In_Previous_Grade,Performance_At_Promotion,Department_At_Promotion,Promotion_Type
-LTM01001,Lalitha Mishra,1,M2,M3,2013-01-11,6,3.1,Technology & Engineering,Merit
-LTM01001,Lalitha Mishra,2,M3,M4,2017-01-30,6,2.8,Technology & Engineering,Merit
-LTM01001,Lalitha Mishra,3,M4,M5,2022-02-11,6,3.4,Technology & Engineering,Merit + Accelerated
-LTM01002,Krishnamurthy Pai,1,M2,M3,2001-05-19,6,3.6,Strategy & Corporate Development,Merit
-LTM01002,Krishnamurthy Pai,2,M3,M4,2006-04-13,6,3.8,Strategy & Corporate Development,Merit
-LTM01002,Krishnamurthy Pai,3,M4,M5,2011-01-18,6,4.2,Strategy & Corporate Development,Merit + Accelerated
-LTM01002,Krishnamurthy Pai,4,M5,E1,2016-02-26,6,3.6,Strategy & Corporate Development,Merit + Accelerated
-LTM01002,Krishnamurthy Pai,5,E1,E2,2020-12-19,6,3.8,Strategy & Corporate Development,Merit
-LTM01003,Naresh Bajaj,1,M1,M2,2016-01-22,4,3.7,Supply Chain,Merit
-LTM01003,Naresh Bajaj,2,M2,M3,2018-12-19,4,3.6,Supply Chain,Merit + Accelerated
-LTM01003,Naresh Bajaj,3,M3,M4,2023-02-03,4,3.9,Supply Chain,Merit
-LTM01004,Ajay Dutta,1,M1,M2,2020-05-14,5,3.3,Supply Chain,Merit
-LTM01004,Ajay Dutta,2,M2,M3,2023-04-05,5,3.2,Supply Chain,Merit
-LTM01005,Savita Nair,1,M2,M3,2014-03-22,5,3.3,Marketing & Brand,Merit
-LTM01005,Savita Nair,2,M3,M4,2018-01-08,5,3.6,Marketing & Brand,Accelerated
-LTM01005,Savita Nair,3,M4,M5,2022-04-24,5,3.1,Marketing & Brand,Merit + Accelerated
-LTM01006,Mangala Murthy,1,M2,M3,2021-03-15,11,3.0,Marketing & Brand,Merit + Accelerated
-LTM01007,Seema Kamath,1,M2,M3,2011-02-07,7,3.1,Human Resources,Merit
-LTM01007,Seema Kamath,2,M3,M4,2015-12-02,7,3.4,Human Resources,Merit
-LTM01007,Seema Kamath,3,M4,M5,2021-01-23,7,3.3,Human Resources,Merit + Accelerated
-LTM01008,Ramakrishna Reddy,1,M1,M2,2018-04-27,6,2.7,Marketing & Brand,Merit
-LTM01008,Ramakrishna Reddy,2,M2,M3,2022-05-20,6,3.2,Marketing & Brand,Merit + Accelerated
-LTM01009,Lalitha Kamath,1,M1,M2,2012-12-19,6,3.1,Human Resources,Merit
-LTM01009,Lalitha Kamath,2,M2,M3,2016-12-24,6,3.6,Human Resources,Merit + Accelerated
-LTM01009,Lalitha Kamath,3,M3,M4,2022-03-27,6,3.8,Human Resources,Merit
-LTM01010,Saroja Mallya,1,M1,M2,2018-04-18,6,3.4,Supply Chain,Merit + Accelerated
-LTM01010,Saroja Mallya,2,M2,M3,2022-03-09,6,3.2,Supply Chain,Merit
-LTM01011,Bindu Bose,1,M2,M3,2010-01-09,7,3.4,Product Management,Merit + Accelerated
-LTM01011,Bindu Bose,2,M3,M4,2015-05-26,7,3.6,Product Management,Merit + Accelerated
-LTM01011,Bindu Bose,3,M4,M5,2021-01-06,7,3.9,Product Management,Merit
-LTM01012,Vijayalaxmi Singh,1,M2,M3,2014-02-14,9,3.5,Finance & Accounting,Merit + Accelerated
-LTM01012,Vijayalaxmi Singh,2,M3,M4,2020-05-04,9,2.8,Finance & Accounting,Merit + Accelerated
-LTM01013,Usha Tiwari,1,M1,M2,2011-04-03,6,3.2,Sales & Business Development,Merit
-LTM01013,Usha Tiwari,2,M2,M3,2016-04-29,6,3.4,Sales & Business Development,Merit + Accelerated
-LTM01013,Usha Tiwari,3,M3,M4,2021-01-29,6,3.0,Sales & Business Development,Accelerated
-LTM01014,Shantha Chopra,1,M2,M3,2018-04-28,16,3.1,Marketing & Brand,Merit + Accelerated
-LTM01015,Sneha Malhotra,1,M1,M2,2003-12-18,5,2.8,Finance & Accounting,Merit
-LTM01015,Sneha Malhotra,2,M2,M3,2008-04-21,5,3.1,Finance & Accounting,Merit + Accelerated
-LTM01015,Sneha Malhotra,3,M3,M4,2013-01-22,5,3.1,Finance & Accounting,Merit + Accelerated
-LTM01015,Sneha Malhotra,4,M4,M5,2017-03-15,5,2.9,Finance & Accounting,Merit + Accelerated
-LTM01015,Sneha Malhotra,5,M5,E1,2022-01-17,5,3.4,Finance & Accounting,Merit + Accelerated
-LTM01016,Sachin Bajaj,1,M1,M2,2010-12-01,4,3.5,Legal & Compliance,Accelerated
-LTM01016,Sachin Bajaj,2,M2,M3,2015-03-21,4,3.0,Legal & Compliance,Merit + Accelerated
-LTM01016,Sachin Bajaj,3,M3,M4,2019-02-11,4,3.7,Legal & Compliance,Merit + Accelerated
-LTM01016,Sachin Bajaj,4,M4,M5,2023-01-24,4,3.1,Legal & Compliance,Accelerated
-LTM01017,Venkataraman Sharma,1,M2,M3,2007-01-31,8,2.9,Sales & Business Development,Merit
-LTM01017,Venkataraman Sharma,2,M3,M4,2013-03-28,8,2.9,Sales & Business Development,Merit
-LTM01017,Venkataraman Sharma,3,M4,M5,2020-02-01,8,3.1,Sales & Business Development,Merit
-LTM01018,Seema Roy,1,M1,M2,2017-01-07,4,3.4,Risk & Audit,Merit
-LTM01018,Seema Roy,2,M2,M3,2020-04-20,4,3.1,Risk & Audit,Accelerated
-LTM01018,Seema Roy,3,M3,M4,2023-02-18,4,3.4,Risk & Audit,Merit
-LTM01019,Shruti Hegde,1,M2,M3,2012-04-11,10,2.9,Human Resources,Merit + Accelerated
-LTM01019,Shruti Hegde,2,M3,M4,2018-12-26,10,3.6,Human Resources,Merit + Accelerated
-LTM01020,Gayathri Pillai,1,M1,M2,2022-01-17,8,2.2,Operations,Merit + Accelerated
-LTM01021,Nikhil Mallya,1,M2,M3,2020-04-23,13,3.7,Human Resources,Merit + Accelerated
-LTM01022,Amit Awasthi,1,M2,M3,2017-05-11,18,3.0,Technology & Engineering,Merit + Accelerated
-LTM01023,Santosh Pillai,1,M1,M2,2016-03-19,7,3.3,Risk & Audit,Merit + Accelerated
-LTM01023,Santosh Pillai,2,M2,M3,2021-02-10,7,3.3,Risk & Audit,Merit + Accelerated
-LTM01024,Pushpa Rajan,1,M2,M3,2008-03-04,8,3.6,Legal & Compliance,Merit + Accelerated
-LTM01024,Pushpa Rajan,2,M3,M4,2014-01-20,8,3.7,Legal & Compliance,Merit
-LTM01024,Pushpa Rajan,3,M4,M5,2020-03-20,8,3.3,Legal & Compliance,Merit + Accelerated
-LTM01025,Shobha Reddy,1,M1,M2,2022-05-27,8,3.1,Risk & Audit,Merit
-LTM01026,Arjun Patel,1,M1,M2,2022-03-16,8,3.4,Operations,Merit
-LTM01027,Vijay Krishnan,1,M1,M2,2014-03-14,5,3.1,Technology & Engineering,Accelerated
-LTM01027,Vijay Krishnan,2,M2,M3,2017-12-29,5,2.7,Technology & Engineering,Merit
-LTM01027,Vijay Krishnan,3,M3,M4,2021-12-30,5,2.9,Technology & Engineering,Merit + Accelerated
-LTM01028,Shobha Naidu,1,M2,M3,2015-12-12,8,3.8,Finance & Accounting,Merit
-LTM01028,Shobha Naidu,2,M3,M4,2021-01-22,8,3.0,Finance & Accounting,Merit + Accelerated
-LTM01029,Madhu Roy,1,M1,M2,2005-04-23,5,3.0,Product Management,Merit + Accelerated
-LTM01029,Madhu Roy,2,M2,M3,2009-02-05,5,3.4,Product Management,Merit
-LTM01029,Madhu Roy,3,M3,M4,2013-01-12,5,3.2,Product Management,Merit + Accelerated
-LTM01029,Madhu Roy,4,M4,M5,2018-01-25,5,3.5,Product Management,Merit
-LTM01029,Madhu Roy,5,M5,E1,2022-02-28,5,3.0,Product Management,Merit + Accelerated
-LTM01030,Manju Awasthi,1,M2,M3,2016-03-04,8,3.1,Human Resources,Merit + Accelerated
-LTM01030,Manju Awasthi,2,M3,M4,2021-01-06,8,3.1,Human Resources,Merit
-LTM01031,Sneha Roy,1,M1,M2,2021-01-08,10,2.7,Finance & Accounting,Merit + Accelerated
-LTM01032,Karan Kumar,1,M1,M2,2014-02-22,4,3.9,Human Resources,Merit + Accelerated
-LTM01032,Karan Kumar,2,M2,M3,2017-02-01,4,4.6,Human Resources,Merit + Accelerated
-LTM01032,Karan Kumar,3,M3,M4,2020-03-06,4,4.0,Human Resources,Merit + Accelerated
-LTM01032,Karan Kumar,4,M4,M5,2023-04-09,4,4.0,Human Resources,Merit + Accelerated
-LTM01033,Geetha Iyengar,1,M2,M3,2019-12-01,12,2.7,Strategy & Corporate Development,Merit
-LTM01034,Chandrasekhar Naidu,1,M2,M3,2010-03-30,7,3.0,Product Management,Accelerated
-LTM01034,Chandrasekhar Naidu,2,M3,M4,2015-01-03,7,2.9,Product Management,Merit + Accelerated
-LTM01034,Chandrasekhar Naidu,3,M4,M5,2021-02-18,7,3.2,Product Management,Merit + Accelerated
-LTM01035,Manoj Subramanian,1,M2,M3,2019-03-30,14,2.5,Supply Chain,Merit
-LTM01036,Siddharth Sethi,1,M3,M4,2006-02-15,6,3.6,Risk & Audit,Merit + Accelerated
-LTM01036,Siddharth Sethi,2,M4,M5,2011-05-19,6,4.3,Risk & Audit,Accelerated
-LTM01036,Siddharth Sethi,3,M5,E1,2016-03-08,6,3.5,Risk & Audit,Merit
-LTM01036,Siddharth Sethi,4,E1,E2,2021-01-26,6,3.6,Risk & Audit,Accelerated
-LTM01037,Yogesh Patel,1,M2,M3,2013-11-30,9,3.6,Information Security,Merit
-LTM01037,Yogesh Patel,2,M3,M4,2020-02-20,9,3.9,Information Security,Merit + Accelerated
-LTM01038,Savitha Shah,1,M1,M2,2020-02-19,12,3.3,Risk & Audit,Merit + Accelerated
-LTM01039,Prakash Pandey,1,M1,M2,2020-12-09,10,3.3,Technology & Engineering,Merit
-LTM01040,Sudhir Chatterjee,1,M2,M3,2011-12-15,4,3.9,Information Security,Merit
-LTM01040,Sudhir Chatterjee,2,M3,M4,2016-04-20,4,4.6,Information Security,Merit + Accelerated
-LTM01040,Sudhir Chatterjee,3,M4,M5,2019-01-22,4,4.4,Information Security,Merit
-LTM01040,Sudhir Chatterjee,4,M5,E1,2023-05-18,4,4.4,Information Security,Accelerated
-LTM01041,Girish Iyengar,1,M1,M2,2015-04-27,5,3.1,Finance & Accounting,Accelerated
-LTM01041,Girish Iyengar,2,M2,M3,2019-01-20,5,3.3,Finance & Accounting,Merit + Accelerated
-LTM01041,Girish Iyengar,3,M3,M4,2022-12-27,5,3.0,Finance & Accounting,Merit + Accelerated
-LTM01042,Sanjay Pillai,1,M2,M3,2011-03-07,6,2.7,Product Management,Accelerated
-LTM01042,Sanjay Pillai,2,M3,M4,2016-05-03,6,3.0,Product Management,Merit
-LTM01042,Sanjay Pillai,3,M4,M5,2021-02-04,6,3.1,Product Management,Accelerated
-LTM01043,Prabha Gowda,1,M2,M3,2021-05-02,11,3.1,Sales & Business Development,Merit
-LTM01044,Nisha Krishnan,1,M1,M2,2022-01-13,9,2.8,Human Resources,Merit
-LTM01045,Naresh Kapoor,1,M1,M2,2013-02-02,4,3.7,Marketing & Brand,Accelerated
-LTM01045,Naresh Kapoor,2,M2,M3,2016-05-25,4,3.8,Marketing & Brand,Merit + Accelerated
-LTM01045,Naresh Kapoor,3,M3,M4,2020-04-21,4,4.1,Marketing & Brand,Merit + Accelerated
-LTM01045,Naresh Kapoor,4,M4,M5,2023-02-12,4,3.8,Marketing & Brand,Merit + Accelerated
-LTM01046,Gaurav Yadav,1,M1,M2,2013-12-13,5,3.5,Supply Chain,Merit + Accelerated
-LTM01046,Gaurav Yadav,2,M2,M3,2018-04-19,5,3.1,Supply Chain,Merit + Accelerated
-LTM01046,Gaurav Yadav,3,M3,M4,2022-05-08,5,3.1,Supply Chain,Merit + Accelerated
-LTM01047,Bharat Roy,1,M3,M4,2008-01-31,5,4.5,Supply Chain,Merit
-LTM01047,Bharat Roy,2,M4,M5,2013-03-23,5,4.8,Supply Chain,Merit
-LTM01047,Bharat Roy,3,M5,E1,2017-03-03,5,4.9,Supply Chain,Accelerated
-LTM01047,Bharat Roy,4,E1,E2,2021-12-19,5,4.5,Supply Chain,Merit
-LTM01048,Balasubramanian Das,1,M1,M2,2011-12-04,4,3.3,Technology & Engineering,Accelerated
-LTM01048,Balasubramanian Das,2,M2,M3,2016-02-17,4,3.7,Technology & Engineering,Merit
-LTM01048,Balasubramanian Das,3,M3,M4,2018-12-13,4,3.6,Technology & Engineering,Merit
-LTM01048,Balasubramanian Das,4,M4,M5,2023-05-07,4,3.7,Technology & Engineering,Merit + Accelerated
-LTM01049,Bhavana Hegde,1,M1,M2,2019-03-05,5,2.7,Product Management,Merit + Accelerated
-LTM01049,Bhavana Hegde,2,M2,M3,2022-12-06,5,2.8,Product Management,Merit + Accelerated
-LTM01050,Saraswathi Chopra,1,M2,M3,2016-01-13,7,3.0,Technology & Engineering,Accelerated
-LTM01050,Saraswathi Chopra,2,M3,M4,2021-02-19,7,2.9,Technology & Engineering,Accelerated
-LTM01051,Ananya Menon,1,M1,M2,2018-03-08,6,2.5,Technology & Engineering,Accelerated
-LTM01051,Ananya Menon,2,M2,M3,2021-12-18,6,2.4,Technology & Engineering,Merit + Accelerated
-LTM01052,Sunil Hegde,1,M1,M2,2022-01-23,8,2.5,Legal & Compliance,Accelerated
-LTM01053,Vijayalaxmi Naidu,1,M1,M2,2022-01-09,8,3.6,Human Resources,Merit
-LTM01054,Savita Hegde,1,M1,M2,2022-05-18,9,2.8,Product Management,Merit + Accelerated
-LTM01055,Ananya Mishra,1,M1,M2,2012-12-22,6,3.5,Strategy & Corporate Development,Merit + Accelerated
-LTM01055,Ananya Mishra,2,M2,M3,2017-05-11,6,3.9,Strategy & Corporate Development,Merit + Accelerated
-LTM01055,Ananya Mishra,3,M3,M4,2022-03-28,6,3.4,Strategy & Corporate Development,Accelerated
-LTM01056,Pankaj Awasthi,1,M1,M2,2005-12-21,4,3.0,Risk & Audit,Merit + Accelerated
-LTM01056,Pankaj Awasthi,2,M2,M3,2009-12-06,4,3.0,Risk & Audit,Merit
-LTM01056,Pankaj Awasthi,3,M3,M4,2014-03-17,4,2.9,Risk & Audit,Merit
-LTM01056,Pankaj Awasthi,4,M4,M5,2018-03-31,4,3.4,Risk & Audit,Merit + Accelerated
-LTM01056,Pankaj Awasthi,5,M5,E1,2022-05-04,4,3.4,Risk & Audit,Merit + Accelerated
-LTM01057,Manoj Murthy,1,M1,M2,2019-02-06,5,3.4,Risk & Audit,Merit
-LTM01057,Manoj Murthy,2,M2,M3,2023-05-02,5,3.8,Risk & Audit,Merit + Accelerated
-LTM01058,Vivek Roy,1,M2,M3,2015-12-18,7,2.9,Operations,Merit
-LTM01058,Vivek Roy,2,M3,M4,2020-11-28,7,3.1,Operations,Merit
-LTM01059,Subramaniam Pai,1,M1,M2,2021-05-02,10,3.4,Operations,Merit
-LTM01060,Santosh Joshi,1,M1,M2,2010-02-06,5,3.6,Product Management,Merit
-LTM01060,Santosh Joshi,2,M2,M3,2014-04-17,5,3.7,Product Management,Merit
-LTM01060,Santosh Joshi,3,M3,M4,2017-12-02,5,3.5,Product Management,Merit
-LTM01060,Santosh Joshi,4,M4,M5,2022-03-12,5,3.6,Product Management,Merit
-LTM01061,Dinesh Rajan,1,M1,M2,2017-05-21,4,3.6,Sales & Business Development,Merit + Accelerated
-LTM01061,Dinesh Rajan,2,M2,M3,2020-05-16,4,3.6,Sales & Business Development,Merit
-LTM01061,Dinesh Rajan,3,M3,M4,2023-03-05,4,4.2,Sales & Business Development,Merit + Accelerated
-LTM01062,Chandrasekhar Sethi,1,M2,M3,2019-05-14,15,3.3,Legal & Compliance,Merit
-LTM01063,Vijayalakshmi Mehta,1,M1,M2,2019-03-14,5,3.4,Risk & Audit,Merit + Accelerated
-LTM01063,Vijayalakshmi Mehta,2,M2,M3,2023-02-25,5,3.1,Risk & Audit,Merit + Accelerated
-LTM01064,Divya Gowda,1,M1,M2,2017-02-22,7,3.3,Human Resources,Accelerated
-LTM01064,Divya Gowda,2,M2,M3,2022-02-06,7,3.7,Human Resources,Merit
-LTM01065,Neha Rao,1,M2,M3,2017-04-21,7,4.0,Marketing & Brand,Merit
-LTM01065,Neha Rao,2,M3,M4,2022-03-26,7,3.9,Marketing & Brand,Merit + Accelerated
-LTM01066,Pushpa Srivastava,1,M2,M3,2010-01-15,7,3.2,Technology & Engineering,Merit + Accelerated
-LTM01066,Pushpa Srivastava,2,M3,M4,2015-02-13,7,3.0,Technology & Engineering,Merit + Accelerated
-LTM01066,Pushpa Srivastava,3,M4,M5,2021-01-03,7,3.1,Technology & Engineering,Merit
-LTM01067,Saraswathi Roy,1,M1,M2,2006-12-08,4,4.0,Legal & Compliance,Merit + Accelerated
-LTM01067,Saraswathi Roy,2,M2,M3,2011-04-14,4,3.6,Legal & Compliance,Accelerated
-LTM01067,Saraswathi Roy,3,M3,M4,2015-04-16,4,3.5,Legal & Compliance,Accelerated
-LTM01067,Saraswathi Roy,4,M4,M5,2019-04-14,4,3.8,Legal & Compliance,Merit + Accelerated
-LTM01067,Saraswathi Roy,5,M5,E1,2023-05-07,4,3.4,Legal & Compliance,Merit
-LTM01068,Narayanan Mishra,1,M1,M2,2018-12-23,14,2.3,Product Management,Merit
-LTM01069,Yogesh Chatterjee,1,M1,M2,2010-02-22,7,3.3,Marketing & Brand,Merit + Accelerated
-LTM01069,Yogesh Chatterjee,2,M2,M3,2014-12-22,7,3.8,Marketing & Brand,Merit
-LTM01069,Yogesh Chatterjee,3,M3,M4,2020-12-04,7,3.8,Marketing & Brand,Accelerated
-LTM01070,Suresh Dixit,1,M1,M2,2014-03-29,5,3.2,Product Management,Merit + Accelerated
-LTM01070,Suresh Dixit,2,M2,M3,2018-01-21,5,3.2,Product Management,Merit
-LTM01070,Suresh Dixit,3,M3,M4,2021-12-29,5,2.9,Product Management,Accelerated
-LTM01071,Gopal Dubey,1,M1,M2,2014-04-23,5,2.5,Supply Chain,Merit + Accelerated
-LTM01071,Gopal Dubey,2,M2,M3,2018-03-30,5,2.8,Supply Chain,Merit
-LTM01071,Gopal Dubey,3,M3,M4,2022-01-29,5,2.3,Supply Chain,Merit + Accelerated
-LTM01072,Ravi Banerjee,1,M2,M3,2016-12-16,7,2.1,Technology & Engineering,Merit + Accelerated
-LTM01072,Ravi Banerjee,2,M3,M4,2022-03-23,7,2.7,Technology & Engineering,Merit + Accelerated
-LTM01073,Jagdish Nair,1,M1,M2,2021-01-30,11,2.8,Operations,Merit + Accelerated
-LTM01074,Vimala Kumar,1,M1,M2,2017-03-24,7,2.9,Supply Chain,Accelerated
-LTM01074,Vimala Kumar,2,M2,M3,2021-12-08,7,2.9,Supply Chain,Accelerated
-LTM01075,Geetha Sharma,1,M1,M2,2016-05-26,8,3.0,Risk & Audit,Merit
-LTM01075,Geetha Sharma,2,M2,M3,2021-01-28,8,3.0,Risk & Audit,Merit
-LTM01076,Subramanian Bajaj,1,M2,M3,2016-03-16,8,3.9,Marketing & Brand,Merit + Accelerated
-LTM01076,Subramanian Bajaj,2,M3,M4,2020-12-05,8,4.1,Marketing & Brand,Merit
-LTM01077,Rashmi Banerjee,1,M1,M2,2012-01-11,6,3.4,Legal & Compliance,Accelerated
-LTM01077,Rashmi Banerjee,2,M2,M3,2017-04-18,6,3.6,Legal & Compliance,Merit
-LTM01077,Rashmi Banerjee,3,M3,M4,2022-05-09,6,2.9,Legal & Compliance,Accelerated
-LTM01078,Ananya Nayak,1,M1,M2,2020-02-04,12,3.7,Strategy & Corporate Development,Merit
-LTM01079,Sneha Hegde,1,M2,M3,2014-03-02,5,3.7,Marketing & Brand,Merit
-LTM01079,Sneha Hegde,2,M3,M4,2017-12-29,5,3.8,Marketing & Brand,Merit
-LTM01079,Sneha Hegde,3,M4,M5,2022-03-12,5,3.7,Marketing & Brand,Accelerated
-LTM01080,Asha Banerjee,1,M2,M3,2014-12-17,8,3.4,Sales & Business Development,Accelerated
-LTM01080,Asha Banerjee,2,M3,M4,2021-02-08,8,3.3,Sales & Business Development,Merit
-LTM01081,Rahul Dixit,1,M1,M2,2020-12-02,10,2.4,Product Management,Accelerated
-LTM01082,Venkatesan Gupta,1,M1,M2,2021-03-24,11,3.0,Information Security,Merit
-LTM01083,Aditya Mehta,1,M1,M2,2018-02-01,6,2.7,Supply Chain,Merit + Accelerated
-LTM01083,Aditya Mehta,2,M2,M3,2022-03-11,6,3.2,Supply Chain,Merit
-LTM01084,Rekha Bajaj,1,M2,M3,2013-04-09,6,3.3,Finance & Accounting,Merit + Accelerated
-LTM01084,Rekha Bajaj,2,M3,M4,2017-02-19,6,3.0,Finance & Accounting,Accelerated
-LTM01084,Rekha Bajaj,3,M4,M5,2022-01-24,6,3.2,Finance & Accounting,Merit
-LTM01085,Meenakshi Shukla,1,M2,M3,2012-05-02,6,2.5,Information Security,Accelerated
-LTM01085,Meenakshi Shukla,2,M3,M4,2017-03-29,6,3.2,Information Security,Merit
-LTM01085,Meenakshi Shukla,3,M4,M5,2022-02-19,6,2.6,Information Security,Merit
-LTM01086,Saroja Yadav,1,M1,M2,2006-01-05,4,3.4,Information Security,Merit + Accelerated
-LTM01086,Saroja Yadav,2,M2,M3,2010-02-28,4,3.3,Information Security,Merit + Accelerated
-LTM01086,Saroja Yadav,3,M3,M4,2014-01-02,4,3.6,Information Security,Merit
-LTM01086,Saroja Yadav,4,M4,M5,2018-03-14,4,3.6,Information Security,Merit
-LTM01086,Saroja Yadav,5,M5,E1,2021-11-29,4,3.5,Information Security,Merit
-LTM01087,Sachin Pandey,1,M1,M2,2016-03-14,8,3.3,Operations,Accelerated
-LTM01087,Sachin Pandey,2,M2,M3,2021-05-22,8,3.4,Operations,Merit
-LTM01088,Vijayalaxmi Kapoor,1,M2,M3,2011-12-13,6,2.8,Legal & Compliance,Merit + Accelerated
-LTM01088,Vijayalaxmi Kapoor,2,M3,M4,2017-02-16,6,3.4,Legal & Compliance,Merit + Accelerated
-LTM01088,Vijayalaxmi Kapoor,3,M4,M5,2022-03-18,6,3.2,Legal & Compliance,Merit + Accelerated
-LTM01089,Deepak Awasthi,1,M2,M3,2015-05-27,8,3.4,Risk & Audit,Accelerated
-LTM01089,Deepak Awasthi,2,M3,M4,2021-01-03,8,3.7,Risk & Audit,Merit
-LTM01090,Saritha Gowda,1,M2,M3,2010-12-06,6,3.9,Human Resources,Merit
-LTM01090,Saritha Gowda,2,M3,M4,2016-05-16,6,3.6,Human Resources,Merit + Accelerated
-LTM01090,Saritha Gowda,3,M4,M5,2020-12-23,6,3.5,Human Resources,Merit + Accelerated
-LTM01091,Shobha Saxena,1,M2,M3,2012-01-23,10,3.9,Marketing & Brand,Merit
-LTM01091,Shobha Saxena,2,M3,M4,2019-03-16,10,3.4,Marketing & Brand,Merit + Accelerated
-LTM01092,Sheela Shetty,1,M2,M3,2006-04-03,6,3.7,Operations,Merit
-LTM01092,Sheela Shetty,2,M3,M4,2010-12-26,6,3.3,Operations,Merit + Accelerated
-LTM01092,Sheela Shetty,3,M4,M5,2016-02-28,6,3.9,Operations,Merit
-LTM01092,Sheela Shetty,4,M5,E1,2021-04-01,6,3.4,Operations,Accelerated
-LTM01093,Lakshminarayana Bajaj,1,M2,M3,2005-12-20,6,3.5,Risk & Audit,Merit
-LTM01093,Lakshminarayana Bajaj,2,M3,M4,2011-04-12,6,3.9,Risk & Audit,Merit
-LTM01093,Lakshminarayana Bajaj,3,M4,M5,2015-12-22,6,3.5,Risk & Audit,Merit + Accelerated
-LTM01093,Lakshminarayana Bajaj,4,M5,E1,2021-03-24,6,3.9,Risk & Audit,Merit + Accelerated
-LTM01094,Subramaniam Mukherjee,1,M1,M2,2018-12-06,14,2.8,Supply Chain,Merit + Accelerated
-LTM01095,Nalini Naidu,1,M1,M2,2015-12-12,4,3.4,Marketing & Brand,Merit + Accelerated
-LTM01095,Nalini Naidu,2,M2,M3,2018-12-05,4,3.5,Marketing & Brand,Merit + Accelerated
-LTM01095,Nalini Naidu,3,M3,M4,2023-04-22,4,3.6,Marketing & Brand,Merit + Accelerated
-LTM01096,Sudha Pandey,1,M1,M2,2010-12-21,6,2.6,Risk & Audit,Accelerated
-LTM01096,Sudha Pandey,2,M2,M3,2016-05-04,6,3.2,Risk & Audit,Merit
-LTM01096,Sudha Pandey,3,M3,M4,2020-12-18,6,2.5,Risk & Audit,Merit + Accelerated
-LTM01097,Gaurav Ghosh,1,M2,M3,2018-12-14,14,2.7,Human Resources,Merit + Accelerated
-LTM01098,Manish Mishra,1,M2,M3,2013-05-19,6,3.7,Human Resources,Merit
-LTM01098,Manish Mishra,2,M3,M4,2017-03-10,6,3.5,Human Resources,Accelerated
-LTM01098,Manish Mishra,3,M4,M5,2022-02-04,6,3.3,Human Resources,Merit + Accelerated
-LTM01099,Subramaniam Sethi,1,M1,M2,2006-05-23,6,4.3,Finance & Accounting,Merit
-LTM01099,Subramaniam Sethi,2,M2,M3,2011-01-02,6,4.5,Finance & Accounting,Merit
-LTM01099,Subramaniam Sethi,3,M3,M4,2016-02-25,6,4.6,Finance & Accounting,Merit + Accelerated
-LTM01099,Subramaniam Sethi,4,M4,M5,2021-04-24,6,4.2,Finance & Accounting,Merit
-LTM01100,Vivek Menon,1,M1,M2,2006-05-08,4,3.8,Technology & Engineering,Merit + Accelerated
-LTM01100,Vivek Menon,2,M2,M3,2010-03-16,4,3.6,Technology & Engineering,Merit + Accelerated
-LTM01100,Vivek Menon,3,M3,M4,2014-03-07,4,3.3,Technology & Engineering,Merit
-LTM01100,Vivek Menon,4,M4,M5,2018-02-11,4,3.7,Technology & Engineering,Merit + Accelerated
-LTM01100,Vivek Menon,5,M5,E1,2022-04-13,4,3.9,Technology & Engineering,Merit
-LTM01101,Santosh Subramanian,1,M1,M2,2003-04-11,5,3.9,Finance & Accounting,Merit + Accelerated
-LTM01101,Santosh Subramanian,2,M2,M3,2008-04-27,5,3.7,Finance & Accounting,Merit + Accelerated
-LTM01101,Santosh Subramanian,3,M3,M4,2012-01-12,5,4.0,Finance & Accounting,Merit
-LTM01101,Santosh Subramanian,4,M4,M5,2017-02-24,5,3.8,Finance & Accounting,Merit
-LTM01101,Santosh Subramanian,5,M5,E1,2022-01-12,5,4.2,Finance & Accounting,Merit
-LTM01102,Geetha Dutta,1,M1,M2,2020-01-20,5,2.7,Legal & Compliance,Merit
-LTM01102,Geetha Dutta,2,M2,M3,2023-03-19,5,2.6,Legal & Compliance,Merit
-LTM01103,Manju Kapoor,1,M2,M3,2010-04-18,5,3.1,Strategy & Corporate Development,Merit
-LTM01103,Manju Kapoor,2,M3,M4,2014-03-25,5,2.8,Strategy & Corporate Development,Merit
-LTM01103,Manju Kapoor,3,M4,M5,2018-01-25,5,2.9,Strategy & Corporate Development,Merit
-LTM01103,Manju Kapoor,4,M5,E1,2022-03-13,5,3.1,Strategy & Corporate Development,Merit + Accelerated
-LTM01104,Ramesh Shah,1,M1,M2,2021-03-02,11,1.9,Information Security,Merit
-LTM01105,Saraswathi Khanna,1,M2,M3,2018-04-29,17,3.6,Information Security,Merit + Accelerated
-LTM01106,Dinesh Aggarwal,1,M1,M2,2023-01-28,6,2.6,Human Resources,Merit
-LTM01107,Kamala Pandey,1,M1,M2,2009-05-11,4,4.5,Risk & Audit,Merit
-LTM01107,Kamala Pandey,2,M2,M3,2012-04-23,4,4.2,Risk & Audit,Merit + Accelerated
-LTM01107,Kamala Pandey,3,M3,M4,2016-04-01,4,3.9,Risk & Audit,Accelerated
-LTM01107,Kamala Pandey,4,M4,M5,2018-12-06,4,4.0,Risk & Audit,Merit
-LTM01107,Kamala Pandey,5,M5,E1,2022-12-06,4,3.9,Risk & Audit,Merit
-LTM01108,Mohan Dutta,1,M1,M2,2022-02-15,8,3.8,Sales & Business Development,Merit + Accelerated
-LTM01109,Saroja Hegde,1,M1,M2,2014-01-07,5,4.2,Product Management,Merit + Accelerated
-LTM01109,Saroja Hegde,2,M2,M3,2018-02-24,5,3.9,Product Management,Merit
-LTM01109,Saroja Hegde,3,M3,M4,2022-05-04,5,3.5,Product Management,Accelerated
-LTM01110,Sachin Mishra,1,M1,M2,2023-02-15,6,2.1,Technology & Engineering,Merit
-LTM01111,Rekha Naidu,1,M2,M3,2014-05-26,9,3.0,Legal & Compliance,Merit + Accelerated
-LTM01111,Rekha Naidu,2,M3,M4,2020-03-21,9,2.8,Legal & Compliance,Merit + Accelerated
-LTM01112,Jagdish Rajan,1,M1,M2,2010-01-13,5,3.6,Risk & Audit,Merit + Accelerated
-LTM01112,Jagdish Rajan,2,M2,M3,2014-04-28,5,3.0,Risk & Audit,Merit
-LTM01112,Jagdish Rajan,3,M3,M4,2018-02-01,5,3.4,Risk & Audit,Accelerated
-LTM01112,Jagdish Rajan,4,M4,M5,2022-02-22,5,3.8,Risk & Audit,Merit + Accelerated
-LTM01113,Yogesh Singh,1,M1,M2,2010-12-09,6,3.4,Strategy & Corporate Development,Merit
-LTM01113,Yogesh Singh,2,M2,M3,2015-12-08,6,3.7,Strategy & Corporate Development,Merit
-LTM01113,Yogesh Singh,3,M3,M4,2021-03-21,6,3.6,Strategy & Corporate Development,Merit + Accelerated
-LTM01114,Shyam Kamath,1,M2,M3,2005-01-02,6,3.5,Product Management,Merit
-LTM01114,Shyam Kamath,2,M3,M4,2010-02-22,6,3.2,Product Management,Merit
-LTM01114,Shyam Kamath,3,M4,M5,2015-12-17,6,3.8,Product Management,Merit
-LTM01114,Shyam Kamath,4,M5,E1,2021-02-21,6,3.3,Product Management,Merit
-LTM01115,Harish Khanna,1,M2,M3,2020-04-30,12,2.4,Marketing & Brand,Merit + Accelerated
-LTM01116,Divya Mehta,1,M2,M3,2018-12-07,15,3.6,Product Management,Merit + Accelerated
-LTM01117,Gaurav Mukherjee,1,M2,M3,2015-03-31,8,3.4,Marketing & Brand,Merit
-LTM01117,Gaurav Mukherjee,2,M3,M4,2021-01-27,8,3.4,Marketing & Brand,Merit
-LTM01118,Sudhir Shah,1,M1,M2,2010-05-24,5,3.9,Marketing & Brand,Merit
-LTM01118,Sudhir Shah,2,M2,M3,2013-12-22,5,3.5,Marketing & Brand,Merit
-LTM01118,Sudhir Shah,3,M3,M4,2018-01-05,5,3.8,Marketing & Brand,Merit
-LTM01118,Sudhir Shah,4,M4,M5,2022-03-05,5,3.9,Marketing & Brand,Merit
+LTM1011,Anahita Borde,1,M1,M2,2016-10-05,1.1,5.0,Finance & Accounting,Merit + Accelerated
+LTM1011,Anahita Borde,2,M2,M3,2017-12-20,0.6,4.5,Finance & Accounting,Merit + Accelerated
+LTM1011,Anahita Borde,3,M3,M4,2019-05-11,1.6,4.6,Finance & Accounting,Merit
+LTM1011,Anahita Borde,4,M4,M5,2020-09-18,2.0,4.9,Finance & Accounting,Merit + Accelerated
+LTM1011,Anahita Borde,5,M5,E1,2022-02-23,1.1,5.0,Finance & Accounting,Merit
+LTM1011,Anahita Borde,6,E1,E2,2023-07-20,2.0,4.9,Finance & Accounting,Merit + Accelerated
+LTM1001,Mehul Dixit,1,M1,M2,2016-06-17,2.0,4.7,Sales & Business Development,Merit + Accelerated
+LTM1001,Mehul Dixit,2,M2,M3,2017-10-08,1.2,4.9,Sales & Business Development,Merit
+LTM1001,Mehul Dixit,3,M3,M4,2018-12-10,1.6,5.0,Sales & Business Development,Accelerated
+LTM1001,Mehul Dixit,4,M4,M5,2020-04-05,1.1,4.5,Sales & Business Development,Merit
+LTM1001,Mehul Dixit,5,M5,E1,2021-04-28,1.3,4.4,Sales & Business Development,Merit
+LTM1001,Mehul Dixit,6,E1,E2,2022-09-10,1.7,4.9,Sales & Business Development,Merit + Accelerated
+LTM1004,Armaan Garg,1,M1,M2,2017-09-07,1.9,4.2,Technology & Engineering,Merit + Accelerated
+LTM1004,Armaan Garg,2,M2,M3,2019-02-03,1.7,4.5,Technology & Engineering,Merit + Accelerated
+LTM1004,Armaan Garg,3,M3,M4,2020-07-15,2.0,4.4,Technology & Engineering,Merit + Accelerated
+LTM1004,Armaan Garg,4,M4,M5,2022-02-01,2.0,4.0,Technology & Engineering,Merit + Accelerated
+LTM1004,Armaan Garg,5,M5,E1,2023-05-31,1.3,4.3,Technology & Engineering,Merit
+LTM1004,Armaan Garg,6,E1,E2,2024-11-11,1.2,4.7,Technology & Engineering,Merit + Accelerated
+LTM1003,Shlok Seth,1,M1,M2,2012-03-03,2.1,4.8,Technology & Engineering,Merit + Accelerated
+LTM1003,Shlok Seth,2,M2,M3,2013-10-12,2.4,4.5,Technology & Engineering,Merit
+LTM1003,Shlok Seth,3,M3,M4,2015-07-03,1.9,4.2,Technology & Engineering,Merit
+LTM1003,Shlok Seth,4,M4,M5,2017-06-20,1.5,4.7,Technology & Engineering,Merit
+LTM1003,Shlok Seth,5,M5,E1,2019-03-11,1.8,4.6,Technology & Engineering,Merit + Accelerated
+LTM1003,Shlok Seth,6,E1,E2,2020-11-29,1.8,4.7,Technology & Engineering,Merit
+LTM1042,Faiyaz Chaudhry,1,M4,M5,2015-08-30,7.8,4.6,Operations,Merit
+LTM1042,Faiyaz Chaudhry,2,M5,E1,2021-01-25,7.8,5.0,Operations,Merit
+LTM1054,Hrishita Bora,1,M1,M2,2012-02-16,3.7,4.2,Consulting,Merit
+LTM1054,Hrishita Bora,2,M2,M3,2014-11-28,3.4,3.7,Consulting,Merit
+LTM1054,Hrishita Bora,3,M3,M4,2017-10-29,2.9,4.3,Consulting,Merit + Accelerated
+LTM1054,Hrishita Bora,4,M4,M5,2020-09-17,3.2,4.6,Consulting,Merit + Accelerated
+LTM1054,Hrishita Bora,5,M5,E1,2023-07-05,2.9,4.1,Consulting,Merit
+LTM1006,Vritika Agate,1,M1,M2,2011-05-13,2.3,4.9,Strategy & Corporate Development,Merit
+LTM1006,Vritika Agate,2,M2,M3,2013-06-27,2.5,4.4,Strategy & Corporate Development,Accelerated
+LTM1006,Vritika Agate,3,M3,M4,2015-09-17,2.5,4.4,Strategy & Corporate Development,Merit
+LTM1006,Vritika Agate,4,M4,M5,2017-11-01,3.2,4.5,Strategy & Corporate Development,Merit
+LTM1006,Vritika Agate,5,M5,E1,2019-11-18,2.5,4.7,Strategy & Corporate Development,Merit
+LTM1006,Vritika Agate,6,E1,E2,2022-02-10,2.6,5.0,Strategy & Corporate Development,Merit + Accelerated
+LTM1093,Dishani Saran,1,M5,E1,2017-08-30,6.2,4.7,Sales & Business Development,Merit + Accelerated
+LTM1093,Dishani Saran,2,E1,E2,2021-12-18,6.8,4.9,Sales & Business Development,Accelerated
+LTM1060,Riya Kaur,1,M1,M2,2009-06-10,1.9,4.6,Consulting,Merit
+LTM1060,Riya Kaur,2,M2,M3,2011-07-28,3.8,4.6,Consulting,Merit + Accelerated
+LTM1060,Riya Kaur,3,M3,M4,2013-08-17,1.3,4.6,Consulting,Merit
+LTM1060,Riya Kaur,4,M4,M5,2015-09-21,2.1,4.5,Consulting,Merit + Accelerated
+LTM1060,Riya Kaur,5,M5,E1,2017-11-02,2.5,4.5,Consulting,Merit + Accelerated
+LTM1060,Riya Kaur,6,E1,E2,2019-12-31,2.1,4.5,Consulting,Merit + Accelerated
+LTM1044,Tanya Balay,1,M3,M4,2022-05-19,1.3,5.0,Technology & Engineering,Accelerated
+LTM1044,Tanya Balay,2,M4,M5,2023-03-02,0.8,4.5,Technology & Engineering,Merit
+LTM1044,Tanya Balay,3,M5,E1,2024-05-07,0.8,5.0,Technology & Engineering,Merit
+LTM1044,Tanya Balay,4,E1,E2,2025-05-09,1.4,4.7,Technology & Engineering,Merit
+LTM1010,Raunak Issac,1,M1,M2,2013-09-25,1.4,5.0,Operations,Merit
+LTM1010,Raunak Issac,2,M2,M3,2015-06-14,1.1,5.0,Operations,Merit + Accelerated
+LTM1010,Raunak Issac,3,M3,M4,2016-12-20,1.8,5.0,Operations,Merit
+LTM1010,Raunak Issac,4,M4,M5,2018-07-08,1.9,4.9,Operations,Merit
+LTM1010,Raunak Issac,5,M5,E1,2020-02-09,2.0,5.0,Operations,Merit
+LTM1010,Raunak Issac,6,E1,E2,2021-09-27,1.1,5.0,Operations,Merit + Accelerated
+LTM1008,Rohan Bhalla,1,M4,M5,2022-11-04,2.4,4.7,Finance & Accounting,Merit + Accelerated
+LTM1008,Rohan Bhalla,2,M5,E1,2024-07-24,3.2,4.5,Finance & Accounting,Merit + Accelerated
+LTM1037,Kiara Seshadri,1,M1,M2,2014-10-28,1.7,4.9,Technology & Engineering,Merit
+LTM1037,Kiara Seshadri,2,M2,M3,2016-06-06,2.6,4.9,Technology & Engineering,Merit + Accelerated
+LTM1037,Kiara Seshadri,3,M3,M4,2018-04-13,0.8,4.9,Technology & Engineering,Merit + Accelerated
+LTM1037,Kiara Seshadri,4,M4,M5,2019-09-21,1.4,4.8,Technology & Engineering,Merit + Accelerated
+LTM1037,Kiara Seshadri,5,M5,E1,2021-05-22,1.2,4.9,Technology & Engineering,Merit
+LTM1037,Kiara Seshadri,6,E1,E2,2023-01-06,1.6,4.8,Technology & Engineering,Merit
+LTM1075,Prerak Singh,1,M2,M3,2012-11-07,3.5,4.6,Technology & Engineering,Merit
+LTM1075,Prerak Singh,2,M3,M4,2015-07-05,3.1,4.3,Technology & Engineering,Merit + Accelerated
+LTM1075,Prerak Singh,3,M4,M5,2018-03-07,2.7,4.2,Technology & Engineering,Merit
+LTM1075,Prerak Singh,4,M5,E1,2021-01-27,4.1,3.9,Technology & Engineering,Merit + Accelerated
+LTM1075,Prerak Singh,5,E1,E2,2023-07-03,2.5,4.0,Technology & Engineering,Merit
+LTM1057,Siya Dave,1,M1,M2,2013-10-01,2.6,4.8,Technology & Engineering,Merit
+LTM1057,Siya Dave,2,M2,M3,2016-05-20,2.9,4.7,Technology & Engineering,Accelerated
+LTM1057,Siya Dave,3,M3,M4,2018-09-22,2.7,4.7,Technology & Engineering,Merit + Accelerated
+LTM1057,Siya Dave,4,M4,M5,2021-04-04,2.1,4.6,Technology & Engineering,Merit
+LTM1057,Siya Dave,5,M5,E1,2023-11-03,2.5,5.0,Technology & Engineering,Merit
+LTM1056,Aniruddh Yogi,1,M2,M3,2014-05-09,3.2,4.9,Operations,Merit
+LTM1056,Aniruddh Yogi,2,M3,M4,2017-05-12,3.3,4.9,Operations,Accelerated
+LTM1056,Aniruddh Yogi,3,M4,M5,2020-03-15,4.0,4.9,Operations,Merit
+LTM1056,Aniruddh Yogi,4,M5,E1,2023-04-17,3.6,4.9,Operations,Merit
+LTM1013,Jiya Batta,1,M1,M2,2018-05-19,0.8,5.0,General Management,Merit + Accelerated
+LTM1013,Jiya Batta,2,M2,M3,2019-03-18,1.3,5.0,General Management,Accelerated
+LTM1013,Jiya Batta,3,M3,M4,2020-04-23,0.8,5.0,General Management,Merit
+LTM1013,Jiya Batta,4,M4,M5,2021-03-09,2.2,5.0,General Management,Merit
+LTM1013,Jiya Batta,5,M5,E1,2022-05-07,0.7,4.7,General Management,Merit + Accelerated
+LTM1013,Jiya Batta,6,E1,E2,2023-05-19,1.4,4.5,General Management,Merit + Accelerated
+LTM1014,Damini Sawhney,1,M2,M3,2010-07-27,4.0,3.9,Operations,Merit + Accelerated
+LTM1014,Damini Sawhney,2,M3,M4,2013-08-08,3.8,4.1,Operations,Merit
+LTM1014,Damini Sawhney,3,M4,M5,2016-09-19,3.7,4.2,Operations,Accelerated
+LTM1014,Damini Sawhney,4,M5,E1,2019-11-14,3.7,4.3,Operations,Merit
+LTM1014,Damini Sawhney,5,E1,E2,2023-02-16,3.6,3.7,Operations,Merit
+LTM1018,Sahil Mannan,1,M1,M2,2017-09-09,0.9,4.9,Operations,Merit
+LTM1018,Sahil Mannan,2,M2,M3,2019-03-18,1.6,4.3,Operations,Merit
+LTM1018,Sahil Mannan,3,M3,M4,2020-07-01,2.0,5.0,Operations,Merit
+LTM1018,Sahil Mannan,4,M4,M5,2021-11-20,1.9,5.0,Operations,Merit + Accelerated
+LTM1018,Sahil Mannan,5,M5,E1,2023-07-02,1.5,4.6,Operations,Merit
+LTM1018,Sahil Mannan,6,E1,E2,2024-10-11,2.2,4.2,Operations,Merit + Accelerated
+LTM1064,Chirag Borra,1,M4,M5,2011-04-16,6.7,5.0,Technology & Engineering,Merit
+LTM1064,Chirag Borra,2,M5,E1,2016-03-13,7.6,4.9,Technology & Engineering,Accelerated
+LTM1064,Chirag Borra,3,E1,E2,2021-03-24,6.1,4.5,Technology & Engineering,Merit + Accelerated
+LTM1024,Elakshi Bhandari,1,M4,M5,2020-05-16,3.0,4.3,Technology & Engineering,Accelerated
+LTM1024,Elakshi Bhandari,2,M5,E1,2022-05-20,2.1,4.3,Technology & Engineering,Merit + Accelerated
+LTM1024,Elakshi Bhandari,3,E1,E2,2024-05-05,2.3,4.8,Technology & Engineering,Merit + Accelerated
+LTM1009,Yakshit Ganesh,1,M2,M3,2019-11-22,2.2,4.5,Human Resources,Merit + Accelerated
+LTM1009,Yakshit Ganesh,2,M3,M4,2021-06-29,2.8,3.9,Human Resources,Accelerated
+LTM1009,Yakshit Ganesh,3,M4,M5,2022-12-30,1.2,4.9,Human Resources,Merit + Accelerated
+LTM1009,Yakshit Ganesh,4,M5,E1,2024-10-10,2.4,4.3,Human Resources,Merit + Accelerated
+LTM1022,Manikya Chadha,1,M1,M2,2010-06-27,2.7,4.6,General Management,Merit
+LTM1022,Manikya Chadha,2,M2,M3,2012-10-30,2.1,4.5,General Management,Merit
+LTM1022,Manikya Chadha,3,M3,M4,2014-12-04,3.1,4.2,General Management,Merit
+LTM1022,Manikya Chadha,4,M4,M5,2017-05-16,3.3,4.3,General Management,Accelerated
+LTM1022,Manikya Chadha,5,M5,E1,2019-07-28,3.0,4.5,General Management,Accelerated
+LTM1022,Manikya Chadha,6,E1,E2,2021-09-18,3.0,4.8,General Management,Merit
+LTM1017,Ahana  Jha,1,M1,M2,2016-09-19,1.5,3.6,Technology & Engineering,Merit + Accelerated
+LTM1017,Ahana  Jha,2,M2,M3,2017-12-13,1.3,4.2,Technology & Engineering,Merit
+LTM1017,Ahana  Jha,3,M3,M4,2019-05-10,0.9,3.7,Technology & Engineering,Merit
+LTM1017,Ahana  Jha,4,M4,M5,2020-09-14,1.8,4.4,Technology & Engineering,Merit + Accelerated
+LTM1017,Ahana  Jha,5,M5,E1,2022-02-23,0.5,4.2,Technology & Engineering,Merit
+LTM1017,Ahana  Jha,6,E1,E2,2023-08-19,1.8,4.4,Technology & Engineering,Accelerated
+LTM1095,Fateh Koshy,1,M3,M4,2021-08-07,1.6,5.0,Strategy & Corporate Development,Accelerated
+LTM1095,Fateh Koshy,2,M4,M5,2022-08-24,1.8,4.6,Strategy & Corporate Development,Merit
+LTM1095,Fateh Koshy,3,M5,E1,2023-10-18,1.9,4.7,Strategy & Corporate Development,Merit + Accelerated
+LTM1095,Fateh Koshy,4,E1,E2,2025-01-05,1.4,4.8,Strategy & Corporate Development,Merit
+LTM1025,Myra Dave,1,M1,M2,2015-07-18,0.9,3.8,Technology & Engineering,Merit + Accelerated
+LTM1025,Myra Dave,2,M2,M3,2016-12-05,1.2,4.4,Technology & Engineering,Accelerated
+LTM1025,Myra Dave,3,M3,M4,2018-05-19,2.0,4.6,Technology & Engineering,Merit
+LTM1025,Myra Dave,4,M4,M5,2019-07-21,1.1,4.6,Technology & Engineering,Merit + Accelerated
+LTM1025,Myra Dave,5,M5,E1,2021-01-20,1.2,3.8,Technology & Engineering,Merit
+LTM1025,Myra Dave,6,E1,E2,2022-03-13,1.3,4.4,Technology & Engineering,Accelerated
+LTM1015,Akarsh Raju,1,M1,M2,2011-03-25,3.8,4.1,Technology & Engineering,Merit
+LTM1015,Akarsh Raju,2,M2,M3,2014-04-05,3.5,3.9,Technology & Engineering,Merit
+LTM1015,Akarsh Raju,3,M3,M4,2017-04-26,3.3,4.1,Technology & Engineering,Merit
+LTM1015,Akarsh Raju,4,M4,M5,2020-05-20,3.8,4.3,Technology & Engineering,Merit + Accelerated
+LTM1015,Akarsh Raju,5,M5,E1,2023-04-18,4.3,4.3,Technology & Engineering,Merit + Accelerated
+LTM1027,Aniruddh Baria,1,M2,M3,2018-05-16,3.0,4.8,Consulting,Accelerated
+LTM1027,Aniruddh Baria,2,M3,M4,2020-05-14,2.4,5.0,Consulting,Merit
+LTM1027,Aniruddh Baria,3,M4,M5,2022-05-15,3.5,4.9,Consulting,Merit
+LTM1027,Aniruddh Baria,4,M5,E1,2024-05-19,2.1,5.0,Consulting,Merit + Accelerated
+LTM1099,Nitya Barman,1,M5,E1,2019-09-01,5.2,4.7,Strategy & Corporate Development,Merit
+LTM1099,Nitya Barman,2,E1,E2,2022-11-03,4.4,4.9,Strategy & Corporate Development,Merit
+LTM1029,Riaan Sengupta,1,M2,M3,2014-08-08,3.8,4.9,Strategy & Corporate Development,Merit + Accelerated
+LTM1029,Riaan Sengupta,2,M3,M4,2016-12-28,2.6,4.5,Strategy & Corporate Development,Merit + Accelerated
+LTM1029,Riaan Sengupta,3,M4,M5,2019-04-09,3.1,4.5,Strategy & Corporate Development,Merit
+LTM1029,Riaan Sengupta,4,M5,E1,2021-09-10,2.8,5.0,Strategy & Corporate Development,Merit
+LTM1029,Riaan Sengupta,5,E1,E2,2023-12-20,3.5,4.6,Strategy & Corporate Development,Accelerated
+LTM1030,Chirag Contractor,1,M2,M3,2014-07-15,2.7,4.8,Sales & Business Development,Merit
+LTM1030,Chirag Contractor,2,M3,M4,2016-12-14,2.4,5.0,Sales & Business Development,Merit + Accelerated
+LTM1030,Chirag Contractor,3,M4,M5,2019-03-17,2.7,5.0,Sales & Business Development,Merit
+LTM1030,Chirag Contractor,4,M5,E1,2021-09-22,3.3,4.5,Sales & Business Development,Merit
+LTM1030,Chirag Contractor,5,E1,E2,2023-12-19,2.1,5.0,Sales & Business Development,Merit
+LTM1031,Pranay Shanker,1,M1,M2,2012-11-16,1.5,4.1,Finance & Accounting,Merit
+LTM1031,Pranay Shanker,2,M2,M3,2014-08-15,3.1,4.7,Finance & Accounting,Merit
+LTM1031,Pranay Shanker,3,M3,M4,2016-03-04,2.1,4.1,Finance & Accounting,Merit
+LTM1031,Pranay Shanker,4,M4,M5,2017-11-06,1.8,4.8,Finance & Accounting,Merit
+LTM1031,Pranay Shanker,5,M5,E1,2019-08-02,2.2,4.4,Finance & Accounting,Merit + Accelerated
+LTM1031,Pranay Shanker,6,E1,E2,2021-03-07,1.4,4.3,Finance & Accounting,Accelerated
+LTM1032,Vihaan Deo,1,M4,M5,2012-09-01,5.9,5.0,Sales & Business Development,Merit
+LTM1032,Vihaan Deo,2,M5,E1,2017-04-30,6.1,5.0,Sales & Business Development,Merit
+LTM1032,Vihaan Deo,3,E1,E2,2021-11-20,5.8,4.6,Sales & Business Development,Accelerated
+LTM1005,Renee Ganesan,1,M1,M2,2015-07-07,0.7,4.4,Human Resources,Merit
+LTM1005,Renee Ganesan,2,M2,M3,2017-01-24,2.1,3.5,Human Resources,Merit
+LTM1005,Renee Ganesan,3,M3,M4,2018-05-05,1.1,4.3,Human Resources,Merit + Accelerated
+LTM1005,Renee Ganesan,4,M4,M5,2019-09-07,1.4,4.2,Human Resources,Merit
+LTM1005,Renee Ganesan,5,M5,E1,2020-11-23,1.9,4.4,Human Resources,Merit + Accelerated
+LTM1005,Renee Ganesan,6,E1,E2,2022-04-26,1.8,4.3,Human Resources,Accelerated
+LTM1034,Dishani Saha,1,M1,M2,2014-12-12,1.7,4.8,General Management,Accelerated
+LTM1034,Dishani Saha,2,M2,M3,2016-07-15,1.2,4.7,General Management,Merit
+LTM1034,Dishani Saha,3,M3,M4,2018-01-15,1.9,4.8,General Management,Merit
+LTM1034,Dishani Saha,4,M4,M5,2019-09-07,2.2,5.0,General Management,Accelerated
+LTM1034,Dishani Saha,5,M5,E1,2021-05-12,2.0,4.6,General Management,Merit
+LTM1034,Dishani Saha,6,E1,E2,2023-01-17,2.0,4.7,General Management,Merit + Accelerated
+LTM1083,Farhan Devan,1,M3,M4,2019-10-31,2.7,4.8,Technology & Engineering,Merit + Accelerated
+LTM1083,Farhan Devan,2,M4,M5,2021-05-13,2.2,3.7,Technology & Engineering,Accelerated
+LTM1083,Farhan Devan,3,M5,E1,2023-01-19,1.5,4.6,Technology & Engineering,Merit + Accelerated
+LTM1083,Farhan Devan,4,E1,E2,2024-08-11,1.4,4.1,Technology & Engineering,Merit + Accelerated
+LTM1035,Riaan Randhawa,1,M1,M2,2013-03-09,1.5,4.6,Operations,Merit + Accelerated
+LTM1035,Riaan Randhawa,2,M2,M3,2014-12-03,1.3,4.1,Operations,Merit + Accelerated
+LTM1035,Riaan Randhawa,3,M3,M4,2016-10-19,2.5,4.6,Operations,Accelerated
+LTM1035,Riaan Randhawa,4,M4,M5,2018-10-15,2.4,4.3,Operations,Merit
+LTM1035,Riaan Randhawa,5,M5,E1,2020-09-23,1.8,4.7,Operations,Merit + Accelerated
+LTM1035,Riaan Randhawa,6,E1,E2,2022-07-10,2.4,4.0,Operations,Merit
+LTM1016,Heer Chadha,1,M1,M2,2009-08-28,4.1,4.1,Technology & Engineering,Merit + Accelerated
+LTM1016,Heer Chadha,2,M2,M3,2013-01-20,3.6,4.1,Technology & Engineering,Merit + Accelerated
+LTM1016,Heer Chadha,3,M3,M4,2016-04-25,3.7,4.9,Technology & Engineering,Accelerated
+LTM1016,Heer Chadha,4,M4,M5,2019-09-24,4.0,4.6,Technology & Engineering,Merit + Accelerated
+LTM1016,Heer Chadha,5,M5,E1,2022-12-11,3.7,4.4,Technology & Engineering,Merit + Accelerated
+LTM1038,Alia Bhandari,1,M2,M3,2018-11-26,1.3,3.9,Technology & Engineering,Merit
+LTM1038,Alia Bhandari,2,M3,M4,2020-03-19,1.6,4.0,Technology & Engineering,Merit
+LTM1038,Alia Bhandari,3,M4,M5,2021-09-12,1.7,4.5,Technology & Engineering,Merit
+LTM1038,Alia Bhandari,4,M5,E1,2023-03-28,2.1,4.2,Technology & Engineering,Merit + Accelerated
+LTM1038,Alia Bhandari,5,E1,E2,2024-11-19,2.8,4.7,Technology & Engineering,Merit
+LTM1039,Faiyaz Sanghvi,1,M1,M2,2021-10-30,0.9,3.7,Operations,Merit
+LTM1039,Faiyaz Sanghvi,2,M2,M3,2022-06-26,0.5,4.8,Operations,Merit
+LTM1039,Faiyaz Sanghvi,3,M3,M4,2023-01-18,0.5,4.4,Operations,Merit
+LTM1039,Faiyaz Sanghvi,4,M4,M5,2023-07-17,0.5,4.3,Operations,Merit
+LTM1039,Faiyaz Sanghvi,5,M5,E1,2024-01-27,0.5,4.2,Operations,Merit
+LTM1039,Faiyaz Sanghvi,6,E1,E2,2024-08-20,0.5,4.2,Operations,Merit
+LTM1040,Alisha Karan,1,M1,M2,2019-06-01,1.6,4.3,Technology & Engineering,Merit + Accelerated
+LTM1040,Alisha Karan,2,M2,M3,2020-08-12,1.7,4.6,Technology & Engineering,Merit
+LTM1040,Alisha Karan,3,M3,M4,2021-08-17,1.8,4.6,Technology & Engineering,Accelerated
+LTM1040,Alisha Karan,4,M4,M5,2022-12-02,1.5,4.6,Technology & Engineering,Merit + Accelerated
+LTM1040,Alisha Karan,5,M5,E1,2023-12-23,1.7,4.7,Technology & Engineering,Accelerated
+LTM1040,Alisha Karan,6,E1,E2,2025-01-25,1.1,4.4,Technology & Engineering,Merit
+LTM1041,Ivana Dass,1,M5,E1,2015-01-14,9.2,4.5,Technology & Engineering,Accelerated
+LTM1041,Ivana Dass,2,E1,E2,2020-08-08,8.7,4.5,Technology & Engineering,Merit
+LTM1059,Rhea Lad,1,M2,M3,2016-03-06,2.0,4.3,Technology & Engineering,Merit
+LTM1059,Rhea Lad,2,M3,M4,2018-03-04,1.9,4.2,Technology & Engineering,Merit
+LTM1059,Rhea Lad,3,M4,M5,2020-03-18,2.3,4.2,Technology & Engineering,Merit
+LTM1059,Rhea Lad,4,M5,E1,2022-04-30,2.9,4.2,Technology & Engineering,Merit
+LTM1059,Rhea Lad,5,E1,E2,2024-03-01,2.3,4.7,Technology & Engineering,Merit
+LTM1043,Kiaan Karpe,1,M2,M3,2015-12-08,3.6,4.4,Operations,Merit
+LTM1043,Kiaan Karpe,2,M3,M4,2018-08-01,2.6,4.2,Operations,Merit
+LTM1043,Kiaan Karpe,3,M4,M5,2021-01-30,3.1,4.4,Operations,Merit
+LTM1043,Kiaan Karpe,4,M5,E1,2023-10-01,2.1,4.3,Operations,Merit + Accelerated
+LTM1019,Taimur Sahni,1,M2,M3,2013-10-31,3.7,4.8,Technology & Engineering,Accelerated
+LTM1019,Taimur Sahni,2,M3,M4,2016-04-16,2.4,4.8,Technology & Engineering,Merit
+LTM1019,Taimur Sahni,3,M4,M5,2018-11-24,3.3,4.6,Technology & Engineering,Accelerated
+LTM1019,Taimur Sahni,4,M5,E1,2021-05-20,3.4,4.9,Technology & Engineering,Merit
+LTM1019,Taimur Sahni,5,E1,E2,2023-11-27,1.9,5.0,Technology & Engineering,Merit + Accelerated
+LTM1045,Drishya Deol,1,M2,M3,2009-09-10,3.1,5.0,Technology & Engineering,Accelerated
+LTM1045,Drishya Deol,2,M3,M4,2012-12-07,4.9,5.0,Technology & Engineering,Merit + Accelerated
+LTM1045,Drishya Deol,3,M4,M5,2016-03-01,4.0,4.9,Technology & Engineering,Merit
+LTM1045,Drishya Deol,4,M5,E1,2019-07-14,5.0,5.0,Technology & Engineering,Merit
+LTM1045,Drishya Deol,5,E1,E2,2022-11-22,4.4,5.0,Technology & Engineering,Merit + Accelerated
+LTM1046,Yuvaan Handa,1,M3,M4,2013-05-30,4.6,5.0,Technology & Engineering,Merit
+LTM1046,Yuvaan Handa,2,M4,M5,2016-08-09,4.2,4.3,Technology & Engineering,Merit
+LTM1046,Yuvaan Handa,3,M5,E1,2019-12-27,3.7,4.4,Technology & Engineering,Merit + Accelerated
+LTM1046,Yuvaan Handa,4,E1,E2,2023-02-17,4.7,4.9,Technology & Engineering,Merit + Accelerated
+LTM1061,Ishita Rege,1,M2,M3,2009-07-26,4.0,5.0,Technology & Engineering,Merit + Accelerated
+LTM1061,Ishita Rege,2,M3,M4,2013-01-24,4.0,4.5,Technology & Engineering,Merit
+LTM1061,Ishita Rege,3,M4,M5,2016-05-14,4.0,5.0,Technology & Engineering,Merit + Accelerated
+LTM1061,Ishita Rege,4,M5,E1,2019-08-25,4.1,4.9,Technology & Engineering,Merit
+LTM1061,Ishita Rege,5,E1,E2,2023-01-16,3.5,4.9,Technology & Engineering,Merit
+LTM1020,Saksham Doctor,1,M2,M3,2019-02-05,2.5,4.9,Human Resources,Merit + Accelerated
+LTM1020,Saksham Doctor,2,M3,M4,2020-11-11,2.2,5.0,Human Resources,Merit
+LTM1020,Saksham Doctor,3,M4,M5,2022-08-06,2.3,4.5,Human Resources,Merit + Accelerated
+LTM1020,Saksham Doctor,4,M5,E1,2024-05-22,2.4,4.9,Human Resources,Merit + Accelerated
+LTM1049,Azad Dhaliwal,1,M2,M3,2013-09-22,2.9,4.0,Operations,Merit
+LTM1049,Azad Dhaliwal,2,M3,M4,2016-04-08,3.1,4.3,Operations,Merit + Accelerated
+LTM1049,Azad Dhaliwal,3,M4,M5,2018-10-27,2.7,4.2,Operations,Accelerated
+LTM1049,Azad Dhaliwal,4,M5,E1,2021-04-12,2.8,4.5,Operations,Merit
+LTM1049,Azad Dhaliwal,5,E1,E2,2023-10-26,2.8,4.8,Operations,Accelerated
+LTM1048,Tejas Raja,1,M1,M2,2013-12-04,2.2,4.4,Technology & Engineering,Merit
+LTM1048,Tejas Raja,2,M2,M3,2015-09-11,2.0,4.7,Technology & Engineering,Merit
+LTM1048,Tejas Raja,3,M3,M4,2017-06-24,2.6,3.9,Technology & Engineering,Merit + Accelerated
+LTM1048,Tejas Raja,4,M4,M5,2019-03-05,1.4,4.6,Technology & Engineering,Accelerated
+LTM1048,Tejas Raja,5,M5,E1,2021-01-06,1.6,4.6,Technology & Engineering,Merit
+LTM1048,Tejas Raja,6,E1,E2,2022-10-20,1.8,5.0,Technology & Engineering,Merit
+LTM1051,Miraya Mall,1,M3,M4,2021-06-04,2.4,4.6,Technology & Engineering,Merit
+LTM1051,Miraya Mall,2,M4,M5,2022-08-27,3.1,4.9,Technology & Engineering,Merit
+LTM1051,Miraya Mall,3,M5,E1,2023-12-05,2.0,4.5,Technology & Engineering,Merit
+LTM1051,Miraya Mall,4,E1,E2,2025-03-09,1.5,4.7,Technology & Engineering,Merit
+LTM1028,Saira Gopal,1,M3,M4,2011-12-19,4.7,4.7,Technology & Engineering,Merit
+LTM1028,Saira Gopal,2,M4,M5,2015-08-10,4.0,4.2,Technology & Engineering,Merit + Accelerated
+LTM1028,Saira Gopal,3,M5,E1,2018-12-22,4.5,4.4,Technology & Engineering,Merit
+LTM1028,Saira Gopal,4,E1,E2,2022-07-26,4.3,4.4,Technology & Engineering,Merit
+LTM1098,Baiju Luthra,1,M5,E1,2019-01-12,5.6,4.2,Strategy & Corporate Development,Accelerated
+LTM1098,Baiju Luthra,2,E1,E2,2022-09-05,4.6,3.9,Strategy & Corporate Development,Merit
+LTM1069,Samiha Tailor,1,M1,M2,2012-04-02,2.2,4.5,General Management,Accelerated
+LTM1069,Samiha Tailor,2,M2,M3,2014-03-22,2.8,4.2,General Management,Accelerated
+LTM1069,Samiha Tailor,3,M3,M4,2016-03-09,1.7,4.6,General Management,Merit
+LTM1069,Samiha Tailor,4,M4,M5,2018-05-09,1.0,4.0,General Management,Merit + Accelerated
+LTM1069,Samiha Tailor,5,M5,E1,2020-04-09,2.0,4.4,General Management,Merit
+LTM1069,Samiha Tailor,6,E1,E2,2022-04-18,2.8,4.3,General Management,Merit + Accelerated
+LTM1007,Bhamini Ganesan,1,M1,M2,2008-08-07,2.7,4.0,Technology & Engineering,Merit
+LTM1007,Bhamini Ganesan,2,M2,M3,2010-11-01,2.4,5.0,Technology & Engineering,Accelerated
+LTM1007,Bhamini Ganesan,3,M3,M4,2012-11-22,3.5,4.4,Technology & Engineering,Merit
+LTM1007,Bhamini Ganesan,4,M4,M5,2015-03-17,2.0,4.3,Technology & Engineering,Merit
+LTM1007,Bhamini Ganesan,5,M5,E1,2017-06-16,2.8,4.3,Technology & Engineering,Merit + Accelerated
+LTM1007,Bhamini Ganesan,6,E1,E2,2019-09-16,3.2,4.7,Technology & Engineering,Merit
+LTM1026,Biju Deshpande,1,M1,M2,2021-10-02,0.5,4.3,Technology & Engineering,Accelerated
+LTM1026,Biju Deshpande,2,M2,M3,2022-07-02,0.5,4.4,Technology & Engineering,Merit
+LTM1026,Biju Deshpande,3,M3,M4,2022-11-09,0.5,4.5,Technology & Engineering,Merit
+LTM1026,Biju Deshpande,4,M4,M5,2023-07-17,0.6,4.5,Technology & Engineering,Merit
+LTM1026,Biju Deshpande,5,M5,E1,2024-02-25,1.4,4.5,Technology & Engineering,Merit + Accelerated
+LTM1026,Biju Deshpande,6,E1,E2,2024-07-02,0.6,4.7,Technology & Engineering,Merit
+LTM1000,Tejas Varty,1,M1,M2,2015-03-21,2.3,4.7,Technology & Engineering,Merit + Accelerated
+LTM1000,Tejas Varty,2,M2,M3,2017-02-08,2.3,4.3,Technology & Engineering,Merit
+LTM1000,Tejas Varty,3,M3,M4,2018-11-13,0.7,4.5,Technology & Engineering,Merit + Accelerated
+LTM1000,Tejas Varty,4,M4,M5,2020-09-29,2.4,4.5,Technology & Engineering,Merit
+LTM1000,Tejas Varty,5,M5,E1,2022-07-30,1.8,4.8,Technology & Engineering,Merit + Accelerated
+LTM1000,Tejas Varty,6,E1,E2,2024-05-21,2.2,4.5,Technology & Engineering,Merit
+LTM1058,Miraan Karan,1,M4,M5,2017-08-03,6.6,4.7,Technology & Engineering,Merit + Accelerated
+LTM1058,Miraan Karan,2,M5,E1,2021-11-21,5.8,4.9,Technology & Engineering,Merit
+LTM1053,Pari Thaker,1,M5,E1,2018-05-29,6.5,4.4,Strategy & Corporate Development,Merit
+LTM1053,Pari Thaker,2,E1,E2,2022-03-19,6.1,4.6,Strategy & Corporate Development,Merit
+LTM1071,Misha Chahal,1,M1,M2,2009-05-16,1.9,5.0,Technology & Engineering,Merit + Accelerated
+LTM1071,Misha Chahal,2,M2,M3,2011-06-23,2.6,5.0,Technology & Engineering,Merit
+LTM1071,Misha Chahal,3,M3,M4,2013-08-07,2.5,5.0,Technology & Engineering,Merit + Accelerated
+LTM1071,Misha Chahal,4,M4,M5,2015-09-18,1.7,5.0,Technology & Engineering,Merit + Accelerated
+LTM1071,Misha Chahal,5,M5,E1,2017-12-15,2.7,4.8,Technology & Engineering,Merit + Accelerated
+LTM1071,Misha Chahal,6,E1,E2,2020-01-13,3.1,5.0,Technology & Engineering,Merit + Accelerated
+LTM1012,Miraya Karnik,1,M4,M5,2015-02-01,4.9,4.3,Operations,Merit + Accelerated
+LTM1012,Miraya Karnik,2,M5,E1,2018-10-06,5.1,4.4,Operations,Merit + Accelerated
+LTM1012,Miraya Karnik,3,E1,E2,2022-07-14,4.6,4.1,Operations,Merit
+LTM1066,Umang Rastogi,1,M3,M4,2021-02-03,2.5,4.7,Technology & Engineering,Merit + Accelerated
+LTM1066,Umang Rastogi,2,M4,M5,2022-11-16,2.7,4.6,Technology & Engineering,Merit
+LTM1066,Umang Rastogi,3,M5,E1,2024-06-16,2.1,4.0,Technology & Engineering,Merit
+LTM1063,Hansh Balasubramanian,1,M1,M2,2009-06-24,1.9,5.0,Operations,Merit
+LTM1063,Hansh Balasubramanian,2,M2,M3,2011-06-14,2.7,5.0,Operations,Accelerated
+LTM1063,Hansh Balasubramanian,3,M3,M4,2013-09-17,2.6,5.0,Operations,Merit + Accelerated
+LTM1063,Hansh Balasubramanian,4,M4,M5,2015-09-01,1.3,5.0,Operations,Merit + Accelerated
+LTM1063,Hansh Balasubramanian,5,M5,E1,2017-09-24,2.9,5.0,Operations,Merit
+LTM1063,Hansh Balasubramanian,6,E1,E2,2019-12-20,2.6,4.8,Operations,Accelerated
+LTM1077,Kanav Reddy,1,M3,M4,2015-11-04,3.7,4.0,Strategy & Corporate Development,Accelerated
+LTM1077,Kanav Reddy,2,M4,M5,2018-05-26,2.8,4.5,Strategy & Corporate Development,Merit
+LTM1077,Kanav Reddy,3,M5,E1,2020-12-30,3.3,4.0,Strategy & Corporate Development,Merit
+LTM1077,Kanav Reddy,4,E1,E2,2023-09-15,3.5,3.9,Strategy & Corporate Development,Accelerated
+LTM1065,Mannat Kakar,1,M2,M3,2014-12-26,2.9,4.6,Technology & Engineering,Merit + Accelerated
+LTM1065,Mannat Kakar,2,M3,M4,2017-12-25,2.8,5.0,Technology & Engineering,Merit + Accelerated
+LTM1065,Mannat Kakar,3,M4,M5,2020-09-08,3.7,4.7,Technology & Engineering,Merit + Accelerated
+LTM1065,Mannat Kakar,4,M5,E1,2023-07-08,4.2,4.6,Technology & Engineering,Accelerated
+LTM1021,Nakul Dora,1,M1,M2,2014-12-09,1.5,4.6,Finance & Accounting,Merit
+LTM1021,Nakul Dora,2,M2,M3,2016-07-20,2.6,4.6,Finance & Accounting,Merit + Accelerated
+LTM1021,Nakul Dora,3,M3,M4,2018-02-02,1.3,4.5,Finance & Accounting,Accelerated
+LTM1021,Nakul Dora,4,M4,M5,2019-11-03,2.0,5.0,Finance & Accounting,Merit + Accelerated
+LTM1021,Nakul Dora,5,M5,E1,2021-06-26,1.6,5.0,Finance & Accounting,Merit
+LTM1021,Nakul Dora,6,E1,E2,2022-12-04,2.1,4.6,Finance & Accounting,Accelerated
+LTM1067,Taimur Deol,1,M1,M2,2017-08-17,1.2,4.5,Technology & Engineering,Merit + Accelerated
+LTM1067,Taimur Deol,2,M2,M3,2018-10-08,1.3,4.7,Technology & Engineering,Merit
+LTM1067,Taimur Deol,3,M3,M4,2020-02-12,1.8,5.0,Technology & Engineering,Accelerated
+LTM1067,Taimur Deol,4,M4,M5,2021-05-26,1.4,5.0,Technology & Engineering,Merit + Accelerated
+LTM1067,Taimur Deol,5,M5,E1,2022-05-31,1.9,5.0,Technology & Engineering,Merit
+LTM1067,Taimur Deol,6,E1,E2,2023-11-11,1.7,5.0,Technology & Engineering,Merit
+LTM1033,Shaan Deshmukh,1,M1,M2,2021-01-19,1.2,4.6,Strategy & Corporate Development,Merit + Accelerated
+LTM1033,Shaan Deshmukh,2,M2,M3,2021-09-04,1.3,5.0,Strategy & Corporate Development,Merit + Accelerated
+LTM1033,Shaan Deshmukh,3,M3,M4,2022-07-22,0.5,4.9,Strategy & Corporate Development,Merit
+LTM1033,Shaan Deshmukh,4,M4,M5,2023-04-07,1.4,4.9,Strategy & Corporate Development,Merit
+LTM1033,Shaan Deshmukh,5,M5,E1,2023-12-09,0.5,5.0,Strategy & Corporate Development,Merit
+LTM1033,Shaan Deshmukh,6,E1,E2,2024-11-19,0.7,4.9,Strategy & Corporate Development,Merit + Accelerated
+LTM1047,Aaina Gole,1,M2,M3,2014-04-21,4.6,5.0,Human Resources,Merit
+LTM1047,Aaina Gole,2,M3,M4,2017-05-24,3.3,4.9,Human Resources,Merit + Accelerated
+LTM1047,Aaina Gole,3,M4,M5,2020-03-12,4.4,5.0,Human Resources,Merit + Accelerated
+LTM1047,Aaina Gole,4,M5,E1,2023-04-06,3.8,5.0,Human Resources,Merit + Accelerated
+LTM1068,Pihu Das,1,M5,E1,2015-01-06,9.4,4.0,Technology & Engineering,Merit
+LTM1068,Pihu Das,2,E1,E2,2020-08-02,8.5,4.9,Technology & Engineering,Merit
+LTM1082,Vivaan Johal,1,M1,M2,2010-08-13,2.4,5.0,Technology & Engineering,Merit + Accelerated
+LTM1082,Vivaan Johal,2,M2,M3,2012-11-24,3.1,4.9,Technology & Engineering,Merit + Accelerated
+LTM1082,Vivaan Johal,3,M3,M4,2015-01-24,2.9,4.8,Technology & Engineering,Accelerated
+LTM1082,Vivaan Johal,4,M4,M5,2017-03-05,1.3,4.4,Technology & Engineering,Merit
+LTM1082,Vivaan Johal,5,M5,E1,2019-06-03,2.4,4.7,Technology & Engineering,Merit + Accelerated
+LTM1082,Vivaan Johal,6,E1,E2,2021-11-27,2.1,5.0,Technology & Engineering,Merit + Accelerated
+LTM1072,Hrishita Bhatnagar,1,M5,E1,2015-08-10,7.8,4.7,Technology & Engineering,Merit + Accelerated
+LTM1072,Hrishita Bhatnagar,2,E1,E2,2020-12-25,7.9,4.5,Technology & Engineering,Merit + Accelerated
+LTM1073,Anay Bahl,1,M1,M2,2014-08-17,2.0,4.5,Technology & Engineering,Merit
+LTM1073,Anay Bahl,2,M2,M3,2016-11-22,3.0,4.3,Technology & Engineering,Merit + Accelerated
+LTM1073,Anay Bahl,3,M3,M4,2019-05-05,2.4,4.9,Technology & Engineering,Merit
+LTM1073,Anay Bahl,4,M4,M5,2021-09-27,2.6,4.8,Technology & Engineering,Merit
+LTM1073,Anay Bahl,5,M5,E1,2024-01-08,2.7,5.0,Technology & Engineering,Merit
+LTM1074,Prisha Sunder,1,M1,M2,2010-10-12,3.4,5.0,Operations,Merit + Accelerated
+LTM1074,Prisha Sunder,2,M2,M3,2013-04-29,2.4,4.7,Operations,Merit
+LTM1074,Prisha Sunder,3,M3,M4,2015-11-27,2.3,4.9,Operations,Merit
+LTM1074,Prisha Sunder,4,M4,M5,2018-09-03,2.9,4.8,Operations,Merit
+LTM1074,Prisha Sunder,5,M5,E1,2021-03-07,2.6,5.0,Operations,Merit
+LTM1074,Prisha Sunder,6,E1,E2,2023-09-30,3.4,4.9,Operations,Accelerated
+LTM1036,Vidur Balakrishnan,1,M1,M2,2017-03-28,0.9,4.5,Technology & Engineering,Merit
+LTM1036,Vidur Balakrishnan,2,M2,M3,2018-11-06,1.1,4.5,Technology & Engineering,Accelerated
+LTM1036,Vidur Balakrishnan,3,M3,M4,2020-09-02,2.8,5.0,Technology & Engineering,Accelerated
+LTM1036,Vidur Balakrishnan,4,M4,M5,2022-07-22,1.7,5.0,Technology & Engineering,Merit
+LTM1036,Vidur Balakrishnan,5,M5,E1,2024-06-15,2.5,5.0,Technology & Engineering,Merit
+LTM1076,Arhaan Reddy,1,M1,M2,2013-04-28,1.9,4.2,Technology & Engineering,Merit
+LTM1076,Arhaan Reddy,2,M2,M3,2015-08-17,2.5,4.7,Technology & Engineering,Merit + Accelerated
+LTM1076,Arhaan Reddy,3,M3,M4,2017-08-07,2.5,4.8,Technology & Engineering,Merit
+LTM1076,Arhaan Reddy,4,M4,M5,2019-09-27,3.1,4.3,Technology & Engineering,Merit
+LTM1076,Arhaan Reddy,5,M5,E1,2022-02-04,2.2,4.9,Technology & Engineering,Merit + Accelerated
+LTM1076,Arhaan Reddy,6,E1,E2,2024-03-02,1.6,4.5,Technology & Engineering,Merit
+LTM1062,Dishani Mander,1,M2,M3,2013-09-07,3.5,5.0,Technology & Engineering,Merit
+LTM1062,Dishani Mander,2,M3,M4,2016-05-03,2.6,4.3,Technology & Engineering,Merit
+LTM1062,Dishani Mander,3,M4,M5,2018-09-30,3.0,5.0,Technology & Engineering,Merit
+LTM1062,Dishani Mander,4,M5,E1,2021-04-13,3.0,4.7,Technology & Engineering,Merit + Accelerated
+LTM1062,Dishani Mander,5,E1,E2,2023-09-23,3.0,4.5,Technology & Engineering,Merit + Accelerated
+LTM1078,Inaaya  Kata,1,M1,M2,2010-09-30,3.3,5.0,Sales & Business Development,Merit
+LTM1078,Inaaya  Kata,2,M2,M3,2013-04-30,3.7,4.7,Sales & Business Development,Accelerated
+LTM1078,Inaaya  Kata,3,M3,M4,2015-11-25,3.0,4.6,Sales & Business Development,Merit + Accelerated
+LTM1078,Inaaya  Kata,4,M4,M5,2018-07-21,3.2,4.7,Sales & Business Development,Merit + Accelerated
+LTM1078,Inaaya  Kata,5,M5,E1,2021-03-24,2.0,5.0,Sales & Business Development,Merit
+LTM1078,Inaaya  Kata,6,E1,E2,2023-08-17,3.1,4.4,Sales & Business Development,Accelerated
+LTM1094,Raunak Dasgupta,1,M1,M2,2009-11-20,3.6,5.0,Consulting,Merit
+LTM1094,Raunak Dasgupta,2,M2,M3,2012-10-01,3.0,4.4,Consulting,Merit
+LTM1094,Raunak Dasgupta,3,M3,M4,2015-07-01,2.4,4.8,Consulting,Merit
+LTM1094,Raunak Dasgupta,4,M4,M5,2018-01-11,2.7,5.0,Consulting,Merit
+LTM1094,Raunak Dasgupta,5,M5,E1,2020-12-13,3.5,5.0,Consulting,Merit + Accelerated
+LTM1094,Raunak Dasgupta,6,E1,E2,2023-09-01,1.9,4.7,Consulting,Merit
+LTM1080,Armaan Rama,1,M5,E1,2016-03-06,7.3,4.5,Information Security,Merit + Accelerated
+LTM1080,Armaan Rama,2,E1,E2,2021-04-25,7.2,5.0,Information Security,Merit
+LTM1081,Zara Gill,1,M1,M2,2013-02-09,2.0,4.9,Operations,Merit
+LTM1081,Zara Gill,2,M2,M3,2014-12-12,2.7,4.6,Operations,Merit + Accelerated
+LTM1081,Zara Gill,3,M3,M4,2017-01-03,1.4,4.9,Operations,Merit
+LTM1081,Zara Gill,4,M4,M5,2018-10-26,2.3,4.3,Operations,Merit
+LTM1081,Zara Gill,5,M5,E1,2020-08-22,1.2,4.5,Operations,Accelerated
+LTM1081,Zara Gill,6,E1,E2,2022-08-12,2.3,4.9,Operations,Accelerated
+LTM1050,Seher Kota,1,M1,M2,2015-09-07,1.8,5.0,Consulting,Merit + Accelerated
+LTM1050,Seher Kota,2,M2,M3,2017-01-21,1.1,4.7,Consulting,Merit
+LTM1050,Seher Kota,3,M3,M4,2018-05-11,1.0,5.0,Consulting,Merit
+LTM1050,Seher Kota,4,M4,M5,2019-08-11,1.1,4.9,Consulting,Accelerated
+LTM1050,Seher Kota,5,M5,E1,2020-12-24,1.8,4.2,Consulting,Merit
+LTM1050,Seher Kota,6,E1,E2,2022-05-24,1.9,5.0,Consulting,Merit
+LTM1070,Taimur Sundaram,1,M1,M2,2014-03-27,2.1,4.7,General Management,Merit
+LTM1070,Taimur Sundaram,2,M2,M3,2016-04-11,2.1,5.0,General Management,Accelerated
+LTM1070,Taimur Sundaram,3,M3,M4,2018-05-04,2.1,4.9,General Management,Accelerated
+LTM1070,Taimur Sundaram,4,M4,M5,2020-05-01,3.0,5.0,General Management,Merit + Accelerated
+LTM1070,Taimur Sundaram,5,M5,E1,2022-04-10,2.7,4.9,General Management,Accelerated
+LTM1070,Taimur Sundaram,6,E1,E2,2024-03-14,2.3,4.9,General Management,Merit
+LTM1084,Bhamini Bakshi,1,M5,E1,2022-12-24,2.6,5.0,Technology & Engineering,Merit + Accelerated
+LTM1084,Bhamini Bakshi,2,E1,E2,2024-08-09,1.1,4.7,Technology & Engineering,Merit
+LTM1085,Siya Doshi,1,M1,M2,2016-07-25,1.4,5.0,Finance & Accounting,Merit
+LTM1085,Siya Doshi,2,M2,M3,2017-10-07,1.5,4.5,Finance & Accounting,Accelerated
+LTM1085,Siya Doshi,3,M3,M4,2018-11-14,1.1,4.9,Finance & Accounting,Merit
+LTM1085,Siya Doshi,4,M4,M5,2020-02-23,2.3,5.0,Finance & Accounting,Merit
+LTM1085,Siya Doshi,5,M5,E1,2021-05-10,0.7,5.0,Finance & Accounting,Merit
+LTM1085,Siya Doshi,6,E1,E2,2022-07-05,1.3,4.7,Finance & Accounting,Merit
+LTM1086,Hazel Yadav,1,M1,M2,2009-06-28,2.5,4.8,Finance & Accounting,Merit + Accelerated
+LTM1086,Hazel Yadav,2,M2,M3,2011-07-01,2.6,4.5,Finance & Accounting,Merit + Accelerated
+LTM1086,Hazel Yadav,3,M3,M4,2013-08-02,3.0,5.0,Finance & Accounting,Merit
+LTM1086,Hazel Yadav,4,M4,M5,2015-08-24,3.5,4.9,Finance & Accounting,Accelerated
+LTM1086,Hazel Yadav,5,M5,E1,2017-10-03,2.3,4.5,Finance & Accounting,Merit
+LTM1086,Hazel Yadav,6,E1,E2,2019-12-25,3.1,4.7,Finance & Accounting,Merit + Accelerated
+LTM1087,Aarna Konda,1,M2,M3,2015-03-04,4.0,4.8,Technology & Engineering,Merit
+LTM1087,Aarna Konda,2,M3,M4,2017-11-25,3.4,4.3,Technology & Engineering,Merit
+LTM1087,Aarna Konda,3,M4,M5,2020-08-30,3.6,4.6,Technology & Engineering,Merit
+LTM1087,Aarna Konda,4,M5,E1,2023-06-26,2.0,4.2,Technology & Engineering,Merit
+LTM1088,Lakshit Grewal,1,M5,E1,2014-03-09,9.2,4.4,Information Security,Merit
+LTM1088,Lakshit Grewal,2,E1,E2,2020-04-21,8.9,4.9,Information Security,Accelerated
+LTM1089,Zara Rout,1,M5,E1,2014-05-29,8.8,4.7,Operations,Merit
+LTM1089,Zara Rout,2,E1,E2,2020-04-16,9.3,4.9,Operations,Merit + Accelerated
+LTM1090,Ira Srivastava,1,M1,M2,2019-03-09,1.1,5.0,Technology & Engineering,Merit + Accelerated
+LTM1090,Ira Srivastava,2,M2,M3,2020-04-20,2.0,4.8,Technology & Engineering,Merit + Accelerated
+LTM1090,Ira Srivastava,3,M3,M4,2021-03-06,0.7,4.8,Technology & Engineering,Merit + Accelerated
+LTM1090,Ira Srivastava,4,M4,M5,2022-03-03,1.2,4.3,Technology & Engineering,Merit
+LTM1090,Ira Srivastava,5,M5,E1,2023-04-11,0.5,4.7,Technology & Engineering,Merit
+LTM1090,Ira Srivastava,6,E1,E2,2024-05-08,1.1,4.0,Technology & Engineering,Accelerated
+LTM1091,Aaryahi Vohra,1,M4,M5,2017-12-24,4.7,4.1,Technology & Engineering,Merit
+LTM1091,Aaryahi Vohra,2,M5,E1,2020-11-03,4.5,4.6,Technology & Engineering,Merit
+LTM1091,Aaryahi Vohra,3,E1,E2,2023-08-11,3.8,4.7,Technology & Engineering,Merit
+LTM1092,Ayesha Sankar,1,M1,M2,2008-06-03,2.9,4.4,Technology & Engineering,Merit
+LTM1092,Ayesha Sankar,2,M2,M3,2010-10-06,2.2,4.8,Technology & Engineering,Merit + Accelerated
+LTM1092,Ayesha Sankar,3,M3,M4,2013-01-05,2.0,4.7,Technology & Engineering,Merit
+LTM1092,Ayesha Sankar,4,M4,M5,2015-03-30,1.9,5.0,Technology & Engineering,Merit
+LTM1092,Ayesha Sankar,5,M5,E1,2017-04-30,2.2,4.6,Technology & Engineering,Merit
+LTM1092,Ayesha Sankar,6,E1,E2,2019-09-12,2.4,4.9,Technology & Engineering,Merit
+LTM1002,Veer Dave,1,M1,M2,2013-07-07,2.5,5.0,Technology & Engineering,Merit
+LTM1002,Veer Dave,2,M2,M3,2015-08-11,2.8,5.0,Technology & Engineering,Merit
+LTM1002,Veer Dave,3,M3,M4,2017-10-22,1.7,4.9,Technology & Engineering,Accelerated
+LTM1002,Veer Dave,4,M4,M5,2019-11-22,2.3,4.2,Technology & Engineering,Accelerated
+LTM1002,Veer Dave,5,M5,E1,2021-12-31,1.1,4.7,Technology & Engineering,Accelerated
+LTM1002,Veer Dave,6,E1,E2,2024-02-20,3.0,5.0,Technology & Engineering,Merit
+LTM1023,Anya Rege,1,M2,M3,2018-09-18,0.7,4.7,Information Security,Merit
+LTM1023,Anya Rege,2,M3,M4,2020-04-18,2.3,4.2,Information Security,Merit
+LTM1023,Anya Rege,3,M4,M5,2021-10-07,1.3,4.7,Information Security,Merit + Accelerated
+LTM1023,Anya Rege,4,M5,E1,2023-03-20,2.6,4.4,Information Security,Merit
+LTM1023,Anya Rege,5,E1,E2,2024-08-29,1.9,4.5,Information Security,Merit + Accelerated
+LTM1079,Anahita Seshadri,1,M5,E1,2022-04-02,2.1,4.8,Technology & Engineering,Merit
+LTM1079,Anahita Seshadri,2,E1,E2,2024-03-04,3.2,4.5,Technology & Engineering,Merit
+LTM1096,Aayush Goswami,1,M3,M4,2019-11-08,1.8,4.1,Technology & Engineering,Merit + Accelerated
+LTM1096,Aayush Goswami,2,M4,M5,2021-05-16,1.6,4.7,Technology & Engineering,Merit + Accelerated
+LTM1096,Aayush Goswami,3,M5,E1,2022-12-18,1.8,4.5,Technology & Engineering,Merit + Accelerated
+LTM1096,Aayush Goswami,4,E1,E2,2024-09-27,1.4,4.2,Technology & Engineering,Merit
+LTM1097,Oorja Verma,1,M1,M2,2011-06-16,2.5,4.6,Technology & Engineering,Merit
+LTM1097,Oorja Verma,2,M2,M3,2013-06-05,2.4,4.3,Technology & Engineering,Merit + Accelerated
+LTM1097,Oorja Verma,3,M3,M4,2015-08-23,1.7,4.0,Technology & Engineering,Merit
+LTM1097,Oorja Verma,4,M4,M5,2017-10-25,2.9,3.7,Technology & Engineering,Merit
+LTM1097,Oorja Verma,5,M5,E1,2019-12-26,2.4,4.6,Technology & Engineering,Merit
+LTM1097,Oorja Verma,6,E1,E2,2022-02-08,2.4,3.9,Technology & Engineering,Merit
+LTM1055,Sana Sodhi,1,M3,M4,2015-12-14,2.8,4.9,Information Security,Merit
+LTM1055,Sana Sodhi,2,M4,M5,2018-07-25,2.5,4.9,Information Security,Merit + Accelerated
+LTM1055,Sana Sodhi,3,M5,E1,2021-03-04,3.5,5.0,Information Security,Accelerated
+LTM1055,Sana Sodhi,4,E1,E2,2023-07-25,4.0,4.7,Information Security,Merit + Accelerated
+LTM1052,Chirag Walia,1,M1,M2,2010-06-05,3.2,4.3,Human Resources,Merit
+LTM1052,Chirag Walia,2,M2,M3,2012-11-21,3.3,4.9,Human Resources,Merit + Accelerated
+LTM1052,Chirag Walia,3,M3,M4,2015-02-09,2.4,4.8,Human Resources,Merit
+LTM1052,Chirag Walia,4,M4,M5,2017-03-09,2.6,4.7,Human Resources,Accelerated
+LTM1052,Chirag Walia,5,M5,E1,2019-07-14,4.0,4.2,Human Resources,Merit
+LTM1052,Chirag Walia,6,E1,E2,2021-10-22,2.2,4.9,Human Resources,Merit + Accelerated
