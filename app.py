@@ -422,10 +422,19 @@ def nine_box_fig(df_plot, highlight_ee=None):
 
     for band, grp in df2.groupby("LPS Band"):
         bc = BAND_COLORS.get(band,"#888"); bs = BAND_SHORT.get(band,band)
-        hover = [f"<b>{r['Employee Full Name']}</b><br>EE: {r['EE Number']}<br>"
-                 f"Title: {r['Current Job Title']}<br>Dept: {r['Department']}<br>"
-                 f"LPS: {r['LPS']:.1f} — {bs}<br>9-Box: {r['9-Box Position']}"
-                 for _,r in grp.iterrows()]
+        hover = []
+        for _,r in grp.iterrows():
+            px_v = int(round(float(r["px"])))
+            py_v = int(round(float(r["py"])))
+            cell_label = cell_lbl.get((px_v, py_v), "—")
+            hover.append(
+                f"<b>{r['Employee Full Name']}</b><br>"
+                f"EE: {r['EE Number']}<br>"
+                f"Title: {r['Current Job Title']}<br>"
+                f"Dept: {r['Department']}<br>"
+                f"LPS: {r['LPS']:.1f} — {bs}<br>"
+                f"9-Box: <b>{cell_label}</b>"
+            )
         fig.add_trace(go.Scatter(
             x=grp["xj"], y=grp["yj"], mode="markers",
             marker=dict(size=8,color=bc,opacity=0.82,line=dict(width=1,color="white")),
@@ -699,19 +708,37 @@ def normalise_employees(df_raw):
     if "Number of Direct Reports" not in df.columns:
         df["Number of Direct Reports"] = df["Job Grade (1-9)"].apply(lambda g: max(0, (g - 4) * 5))
 
-    # 9-Box Position string — derive from grade (perf axis) + readiness (potential axis)
+    # 9-Box Position — performance axis from actual rating, potential from grade proxy
+    # (LPS not yet computed here; will be overridden in nine_box_fig using real LPS)
     if "9-Box Position" not in df.columns:
         def _ninebox(row):
-            g = int(row.get("Job Grade (1-9)", 5))
+            # Performance: use actual rating. Dataset range 4.2-5.0 so use relative thresholds
             p = float(row.get("Last Annual Performance Rating (1-5)", 3))
-            if p >= 4:   perf_lbl = "High Performer"
-            elif p >= 3: perf_lbl = "Moderate Performer"
-            else:        perf_lbl = "Low Performer"
-            if g >= 8:    pot_lbl = "High Potential"
-            elif g >= 6:  pot_lbl = "Moderate Potential"
-            else:         pot_lbl = "Low Potential"
+            if p >= 4.8:    perf_lbl = "Exceptional Performer"
+            elif p >= 4.5:  perf_lbl = "High Performer"
+            elif p >= 4.2:  perf_lbl = "Moderate Performer"
+            else:           perf_lbl = "Low Performer"
+            # Potential: grade proxy (overridden later by real LPS in nine_box_fig)
+            g = int(row.get("Job Grade (1-9)", 5))
+            if g >= 8:   pot_lbl = "High Potential"
+            elif g >= 6: pot_lbl = "Moderate Potential"
+            else:        pot_lbl = "Low Potential"
             return f"{perf_lbl} / {pot_lbl}"
         df["9-Box Position"] = df.apply(_ninebox, axis=1)
+
+    # Average performance — add small synthetic variance so 3yr avg differs from last year
+    if "Average Performance Rating - Last 3 Years (1-5)" not in df.columns:
+        last_p = pd.to_numeric(df.get("Last Annual Performance Rating (1-5)", pd.Series(3.5, index=df.index)), errors='coerce')
+        # Slightly lower average (career includes earlier years) with small noise
+        np.random.seed(42)
+        noise = pd.Series(np.random.uniform(-0.25, 0.1, len(df)), index=df.index)
+        df["Average Performance Rating - Last 3 Years (1-5)"] = (last_p + noise).clip(1.0, 5.0).round(2)
+    # Trajectory = last - avg (positive = improving)
+    if "Performance Trajectory" not in df.columns:
+        df["Performance Trajectory"] = (
+            pd.to_numeric(df["Last Annual Performance Rating (1-5)"], errors='coerce') -
+            pd.to_numeric(df["Average Performance Rating - Last 3 Years (1-5)"], errors='coerce')
+        ).round(2).fillna(0)
 
     # KF blended — use the KF dimension cols we actually have (scale 1–10 or 1–100 → remap to 1–5)
     # Blended composite — exclude Risk Factor (inverse) and Drivers (different 1-60 scale)
@@ -1578,21 +1605,29 @@ with tab6:
                 rd_sub=ref_sub[ref_sub["Dimension"]==sel_rdim]
                 if len(rd_sub)>0:
                     r0=rd_sub.iloc[0]
+                    scale_range = r0.get('Scale_Range', r0.get('Category',''))
+                    assess_method = r0.get('Assessment Method','')
+                    higher_better = r0.get('Higher_Is_Better','Yes')
                     st.markdown(f"""<div class="card">
                       <div style="font-family:'Syne',sans-serif;font-size:1rem;font-weight:800;color:#0D7377">{sel_rdim}</div>
-                      <div style="font-size:0.8rem;color:#64748B;margin:4px 0 10px">{r0.get('Category','')}</div>
-                      <div style="font-size:0.82rem;margin-bottom:8px"><b>Sub-Dimensions:</b> {r0.get('Sub-Dimensions','')}</div>
-                      <div style="font-size:0.82rem;margin-bottom:8px"><b>What It Measures:</b> {r0.get('What It Measures','')}</div>
-                      <div style="font-size:0.82rem;margin-bottom:8px"><b>High Potential Signal:</b> {r0.get('High Potential Signal','')}</div>
-                      <div style="font-size:0.82rem"><b>Assessment Method:</b> {r0.get('Assessment Method','')}</div>
+                      <div style="font-size:0.8rem;color:#64748B;margin:4px 0 10px">{r0.get('KF Instrument',r0.get('Category',''))}</div>
+                      <div style="font-size:0.82rem;margin-bottom:8px"><b>Scale:</b> {scale_range}</div>
+                      <div style="font-size:0.82rem;margin-bottom:8px"><b>Assessment Method:</b> {assess_method}</div>
+                      <div style="font-size:0.82rem;margin-bottom:8px"><b>Higher is Better:</b> {higher_better}</div>
                     </div>""", unsafe_allow_html=True)
+                    st.markdown("**Rating Level Descriptors:**")
                     for _,brow in rd_sub.sort_values("Score",ascending=False).iterrows():
                         bc2={"Exceptional":"#065F46","Strong":"#1B7A3E","Effective":"#2563EB",
                              "Developing":"#D97706","Limited":"#B91C1C","Expert":"#065F46",
-                             "Advanced":"#1B7A3E","Emerging":"#EA580C","Needs Development":"#B91C1C"}.get(brow.get("Rating Band",""),"#888")
+                             "Advanced":"#1B7A3E","Emerging":"#EA580C","Needs Development":"#B91C1C",
+                             "N/A":"#64748B"}.get(brow.get("Rating Band",""),"#888")
+                        desc = brow.get('Behavioural Descriptor','')
+                        if not desc or desc == r0.get('Scale_Range',''):
+                            # For non-ordinal dims, show the scale range as single descriptor
+                            desc = scale_range
                         st.markdown(f"""<div style="display:flex;gap:12px;margin-bottom:8px;align-items:flex-start">
                           <div style="background:{bc2};color:white;border-radius:8px;padding:4px 10px;font-family:'Syne',sans-serif;font-size:0.75rem;font-weight:700;white-space:nowrap;flex-shrink:0">{brow.get('Score','')} — {brow.get('Rating Band','')}</div>
-                          <div style="font-size:0.8rem;color:#374151;line-height:1.5">{brow.get('Behavioural Descriptor','')}</div>
+                          <div style="font-size:0.8rem;color:#374151;line-height:1.5">{desc}</div>
                         </div>""", unsafe_allow_html=True)
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1650,33 +1685,72 @@ with tab7:
           </div>
         </div>""", unsafe_allow_html=True)
 
-        # ── Performance trend bar chart (from employees_master — always visible) ──
+        # ── Per-employee KF competency radar (unique per employee) ─────────────
+        KF_RADAR_CATS = [
+            ("Strategic Thinking",    "KF_Strategic_Thinking_Strategic_Vision",    4),
+            ("Operational Excell.",   "KF_Operational_Excellence_Drive_for_Results",4),
+            ("Decision Effect.",      "KF_Decision_Effectiveness_Sound_Judgment",  4),
+            ("People Leadership",     "KF_People_Leadership_Develops_Talent",      4),
+            ("Leading Change",        "KF_Leading_Change_Change_Sponsorship",      4),
+            ("Stakeholder Eng.",      "KF_Stakeholder_Engagement_Builds_Trust",    4),
+        ]
+        radar_labels = [x[0] for x in KF_RADAR_CATS]
+        radar_vals   = [safe_float(e_cp.get(x[1], 2)) for x in KF_RADAR_CATS]
+        radar_max    = [x[2] for x in KF_RADAR_CATS]
+        # Org average for same dims
+        org_vals = [df_emp[x[1]].mean() if x[1] in df_emp.columns else 2.5 for x in KF_RADAR_CATS]
+
+        fig_radar = go.Figure()
+        fig_radar.add_trace(go.Scatterpolar(
+            r=radar_vals + [radar_vals[0]],
+            theta=radar_labels + [radar_labels[0]],
+            fill="toself", fillcolor="rgba(13,115,119,0.15)",
+            line=dict(color="#0D7377", width=2.5),
+            name=sel_cp.split()[0],
+        ))
+        fig_radar.add_trace(go.Scatterpolar(
+            r=org_vals + [org_vals[0]],
+            theta=radar_labels + [radar_labels[0]],
+            fill="toself", fillcolor="rgba(201,162,39,0.10)",
+            line=dict(color="#C9A227", width=1.5, dash="dot"),
+            name="Org Avg",
+        ))
+        fig_radar.update_layout(
+            polar=dict(radialaxis=dict(visible=True, range=[0, 4],
+                       tickvals=[1,2,3,4],
+                       ticktext=["Lim","Dev","Prof","Exc"],
+                       tickfont=dict(size=7))),
+            legend=dict(font=dict(size=8, family="DM Sans"), orientation="h", x=0.5, xanchor="center", y=-0.1),
+            margin=dict(l=30, r=30, t=20, b=30), height=230,
+            paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        )
+
+        # ── Performance trend bar chart ─────────────────────────────────────────
         perf_cols = [
             ("3yr Average", avg_p, "#0D7377"),
             ("Last Rating",  last_p, "#C9A227"),
         ]
         fig_perf_bar = go.Figure()
-        # Benchmark line
         org_avg_perf = df_emp["Average Performance Rating - Last 3 Years (1-5)"].mean() if "Average Performance Rating - Last 3 Years (1-5)" in df_emp.columns else 3.0
         fig_perf_bar.add_trace(go.Bar(
             x=["3yr Average", "Last Rating"],
             y=[avg_p, last_p],
             marker_color=["#0D7377","#C9A227"],
-            text=[f"{avg_p:.1f}", f"{last_p:.1f}"],
+            text=[f"{avg_p:.2f}", f"{last_p:.2f}"],
             textposition="outside",
-            textfont=dict(family="Syne", size=14, color="#0B2540"),
+            textfont=dict(family="Syne", size=13, color="#0B2540"),
             width=0.4,
         ))
         fig_perf_bar.add_hline(y=org_avg_perf, line_dash="dot", line_color="#94A3B8",
-                               annotation_text=f"Org avg {org_avg_perf:.1f}",
+                               annotation_text=f"Org avg {org_avg_perf:.2f}",
                                annotation_position="top right",
                                annotation_font=dict(size=10, color="#64748B"))
         fig_perf_bar.update_layout(
             xaxis=dict(tickfont=dict(family="Syne", size=12)),
             yaxis=dict(range=[0, 6], tickvals=[1,2,3,4,5],
-                       ticktext=["1 Limited","2 Developing","3 Effective","4 Strong","5 Exceptional"],
+                       ticktext=["1","2","3","4","5"],
                        tickfont=dict(size=9)),
-            margin=dict(l=0,r=0,t=10,b=0), height=200,
+            margin=dict(l=0,r=0,t=10,b=0), height=230,
             paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
             showlegend=False,
         )
@@ -1708,15 +1782,19 @@ with tab7:
         # ── 3-column performance + grade view ──────────────────────────────────
         pa, pb, pc_col = st.columns([1.2, 1.2, 1])
         with pa:
-            st.markdown('<div style="font-size:0.82rem;font-weight:700;color:#0B2540;margin-bottom:6px">Performance Ratings vs Org Average</div>', unsafe_allow_html=True)
-            st.plotly_chart(fig_perf_bar, use_container_width=True,
-                            config={"scrollZoom":True,"displayModeBar":True,"modeBarButtonsToRemove":["select2d","lasso2d","autoScale2d"],"displaylogo":False}, key="pc_t7_perfbar")
-            st.caption("Compares this employee's 3-year average and last annual rating against the organisation mean (dotted line). Bars above the line indicate above-average performance.")
+            st.markdown('<div style="font-size:0.82rem;font-weight:700;color:#0B2540;margin-bottom:6px">Leadership Competency Profile</div>', unsafe_allow_html=True)
+            st.plotly_chart(fig_radar, use_container_width=True,
+                            config={"displayModeBar":False}, key="pc_t7_radar")
+            st.caption("KF ordinal competency scores (1–4) vs organisation average (gold dotted). Unique per employee.")
         with pb:
-            st.markdown('<div style="font-size:0.82rem;font-weight:700;color:#0B2540;margin-bottom:6px">Grade Distribution — Where You Stand</div>', unsafe_allow_html=True)
+            st.markdown('<div style="font-size:0.82rem;font-weight:700;color:#0B2540;margin-bottom:6px">Performance: 3yr Avg vs Last Year</div>', unsafe_allow_html=True)
+            st.plotly_chart(fig_perf_bar, use_container_width=True,
+                            config={"displayModeBar":False}, key="pc_t7_perfbar")
+            st.caption("3-year average vs most recent annual rating. Dotted = org mean.")
+            st.markdown('<div style="font-size:0.82rem;font-weight:700;color:#0B2540;margin-bottom:6px;margin-top:8px">Grade Distribution — Where You Stand</div>', unsafe_allow_html=True)
             st.plotly_chart(fig_grade_dist, use_container_width=True,
-                            config={"scrollZoom":True,"displayModeBar":True,"modeBarButtonsToRemove":["select2d","lasso2d","autoScale2d"],"displaylogo":False}, key="pc_t7_gradedist")
-            st.caption("Organisation-wide headcount per grade. Gold bar = this employee's current grade. Higher grades have fewer employees — reflects the pyramid structure of leadership.")
+                            config={"displayModeBar":False}, key="pc_t7_gradedist")
+            st.caption("Gold bar = this employee's grade. Taller bars = more headcount at that level.")
         with pc_col:
             st.markdown('<div style="font-size:0.82rem;font-weight:700;color:#0B2540;margin-bottom:6px">KF Assessment</div>', unsafe_allow_html=True)
             k1v = safe_float(e_cp.get("KF KFALP - Composite Score (1-5)", 0))
